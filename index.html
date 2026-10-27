@@ -1,0 +1,1631 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>腿後肌康復指南｜大腿後面的那條，慢慢養回來</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="lab.css">
+</head>
+<body>
+<div class="progress-top" aria-hidden="true"><div class="progress-fill" id="progressFill"></div></div>
+
+<header class="hero">
+  <div class="hero-inner">
+    <p class="hero-kicker">腿後肌康復指南 · 居家篇</p>
+    <h1>大腿後面的那條，慢慢養回來</h1>
+    <p class="hero-model">膕旁肌（腿後肌）受傷了一個多月還沒好——這門課用真實的人體圖，帶妳看懂它發生了什麼、學會疼痛紅綠燈，再一步一步照安全的計畫動回來。</p>
+    <ul class="hero-chips" aria-label="課程設計">
+      <li class="chip">⏱ 全程約 45 分鐘</li>
+      <li class="chip">🪑 拆成 4–6 次 8–12 分鐘小坐</li>
+      <li class="chip">🦵 13 張真實人體圖解</li>
+      <li class="chip">👆 每 1–2 屏就有互動</li>
+      <li class="chip">💾 進度自動保存</li>
+      <li class="chip">🚫 沒有倒數計時</li>
+    </ul>
+    <div class="hero-actions">
+      <button class="btn btn-primary" id="resumeBtn" hidden>從這裡繼續 →</button>
+      <button class="btn btn-ghost" id="startBtn">從第 1 章開始 ↓</button>
+    </div>
+    <p class="hero-safety">🩺 這門課是<b>等待專業評估期間的居家安全計畫</b>，不能取代醫師或物理治療師的診斷。第 4 章有「什麼情況要先去看醫生」的完整紅線清單。</p>
+    <p class="hero-progress-label" id="heroProgressLabel" hidden></p>
+  </div>
+</header>
+
+<nav class="rail" id="rail" aria-label="章節導覽">
+  <div class="rail-inner" id="railInner"></div>
+</nav>
+
+<main id="content">
+<!-- ═══════════════ MODULE 1 ═══════════════ -->
+<section class="module" data-module="m1" id="m1">
+  <header class="module-head">
+    <div class="module-num">1</div>
+    <div class="module-title">
+      <h2>這是什麼？——大腿後面那條到底怎麼了</h2>
+      <p class="module-sub">從妳摸得到、感覺得到的症狀開始，打開這條肌肉的盒子。</p>
+    </div>
+    <div class="time-chip">≈5 分鐘閱讀 · 2 分鐘測驗</div>
+  </header>
+
+  <div class="screen">
+    <h3>妳已經很熟悉它的警告了</h3>
+    <p>彎腰撿個東西、坐久一站起來、多走幾分鐘——大腿後面那條就開始<span class="term" data-term="膕旁肌">拉住妳</span>。這不是妳的錯，也很常見：這條肌肉是全身最容易拉傷的肌肉之一。先點開下面兩張卡，確認我們說的是同一條。</p>
+    <div class="card micro" data-check="reveal" data-activity="m1-locate">
+      <div class="reveal-group">
+        <button class="reveal-card"><span class="front">📍 它在哪？</span><span class="back"><b>大腿的正後方</b><br>坐著時，手墊在大腿下面的那條最粗的，就是它</span></button>
+        <button class="reveal-card"><span class="front">🧵 它叫什麼？</span><span class="back"><b>膕旁肌（腿後肌）</b><br>由三條肌肉並排組成，不是一條「筋」</span></button>
+        <button class="reveal-card"><span class="front">🔍 快速測試</span><span class="back"><b>慢慢把膝蓋伸直</b><br>大腿後面會繃住的那個感覺，就是它在拉</span></button>
+      </div>
+      <p class="micro-done" hidden>🎯 找到了嗎？接下來我們把這條肌肉放大來看。</p>
+    </div>
+  </div>
+
+  <div class="screen">
+    <h3>它其實是三條肌肉，跨兩個關節</h3>
+    <p>下面是從背後看的真人體圖。強調色的部分就是膕旁肌：從臀部下緣的<span class="term" data-term="坐骨粗隆">坐骨</span>出發，一路長到膝蓋後方。放大看三條肌肉的名字。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 1-1｜膕旁肌在哪裡：身體後視圖</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="body-svg" role="img" aria-label="人體背後視圖：膕旁肌從臀部下緣的坐骨沿大腿後側延伸到膝蓋後方，外側是股二頭肌，內側是半腱肌與半膜肌，常見撕裂位置在大腿後側中上段">
+        <svg viewBox="0 0 780 650" font-family="inherit">
+          <defs>
+            <clipPath id="thighL-clip">
+              <path d="M 386,300 C 380,340 382,390 390,440 C 392,462 394,482 398,500 L 428,500 C 426,478 424,456 424,432 C 424,390 424,340 424,300 Z"/>
+            </clipPath>
+            <g id="bv-body">
+              <ellipse cx="430" cy="82" rx="23" ry="27"/>
+              <path d="M 419,102 L 441,102 L 447,128 L 413,128 Z"/>
+              <path d="M 372,130 C 362,160 366,205 388,238 C 380,258 376,278 378,300 L 482,300 C 484,278 480,258 472,238 C 494,205 498,160 488,130 C 470,120 390,120 372,130 Z"/>
+              <path d="M 374,136 C 362,156 352,192 350,228 C 349,246 348,262 350,276 L 368,276 C 368,260 370,244 372,228 C 374,196 382,164 388,146 Z"/>
+              <path d="M 350,276 L 368,276 L 368,298 C 368,304 362,308 356,308 C 350,306 348,300 348,294 Z"/>
+              <ellipse cx="358" cy="302" rx="9" ry="12"/>
+              <path d="M 486,136 C 498,156 508,192 510,228 C 511,246 512,262 510,276 L 492,276 C 492,260 490,244 488,228 C 486,196 478,164 472,146 Z"/>
+              <path d="M 510,276 L 492,276 L 492,298 C 492,304 498,308 504,308 C 510,306 512,300 512,294 Z"/>
+              <ellipse cx="502" cy="302" rx="9" ry="12"/>
+              <path d="M 386,300 C 380,340 382,390 390,440 C 392,462 394,482 398,500 L 428,500 C 426,478 424,456 424,432 C 424,390 424,340 424,300 Z"/>
+              <path d="M 474,300 C 480,340 478,390 470,440 C 468,462 466,482 462,500 L 432,500 C 434,478 436,456 436,432 C 436,390 436,340 436,300 Z"/>
+              <path d="M 398,500 C 394,512 392,524 394,540 C 396,560 400,576 404,588 L 420,588 C 420,572 418,552 418,534 C 418,520 420,510 422,500 Z"/>
+              <path d="M 462,500 C 466,512 468,524 466,540 C 464,560 460,576 456,588 L 440,588 C 440,572 440,552 440,534 C 440,520 440,510 438,500 Z"/>
+              <ellipse cx="411" cy="598" rx="15" ry="8"/>
+              <ellipse cx="449" cy="598" rx="15" ry="8"/>
+            </g>
+            <g id="bv-clothes">
+              <path d="M 376,128 C 368,154 372,196 388,234 C 382,254 380,278 382,300 L 478,300 C 480,278 478,254 472,234 C 488,196 492,154 484,128 C 460,114 400,114 376,128 Z"/>
+            </g>
+            <g id="bv-shorts">
+              <path d="M 382,300 L 478,300 C 482,330 478,352 468,366 C 456,374 440,376 430,376 C 420,376 404,374 392,366 C 382,352 378,330 382,300 Z"/>
+            </g>
+          </defs>
+
+          <ellipse cx="430" cy="612" rx="92" ry="9" fill="#000" opacity="0.05"/>
+          <!-- silhouette: outline pass then fill pass (unified contour) -->
+          <g stroke="#333333" stroke-width="4.5" fill="none" stroke-linejoin="round" stroke-linecap="round"><use href="#bv-body"/></g>
+          <g fill="#F6F2EC"><use href="#bv-body"/></g>
+          <!-- clothing -->
+          <g stroke="#333333" stroke-width="4" fill="none" stroke-linejoin="round"><use href="#bv-clothes"/><use href="#bv-shorts"/></g>
+          <g fill="#E9E3DA"><use href="#bv-clothes"/></g>
+          <g fill="#DED7CC"><use href="#bv-shorts"/></g>
+          <!-- shorts hem + tank straps hints -->
+          <path d="M 388,296 C 386,306 386,318 388,330 M 472,296 C 474,306 474,318 472,330" fill="none" stroke="#C9C0B4" stroke-width="2"/>
+          <path d="M 394,372 C 410,378 450,378 466,372" fill="none" stroke="#C9C0B4" stroke-width="2"/>
+          <!-- popliteal crease hints -->
+          <path d="M 398,504 C 406,508 418,508 426,504 M 440,504 C 448,508 460,508 468,504" fill="none" stroke="#C9C0B4" stroke-width="2"/>
+          <!-- hair (bun, back view, full coverage) -->
+          <ellipse cx="430" cy="80" rx="24" ry="26" fill="#7A716A" stroke="#333" stroke-width="3"/>
+          <circle cx="430" cy="42" r="12" fill="#7A716A" stroke="#333" stroke-width="3"/>
+
+          <!-- hamstrings on her right thigh (viewer left) -->
+          <g clip-path="url(#thighL-clip)">
+            <path d="M 388,306 C 384,342 386,384 394,422 C 398,456 402,480 404,500 L 414,500 C 410,478 406,452 402,420 C 398,382 396,342 398,306 Z" fill="#B23A32" fill-opacity="0.85"/>
+            <path d="M 404,306 C 402,342 404,384 410,422 C 414,456 416,480 418,500 L 428,500 C 426,478 422,452 418,420 C 414,382 412,342 414,306 Z" fill="#B23A32" fill-opacity="0.58"/>
+            <path d="M 392,330 C 396,370 400,420 404,476 M 400,330 C 404,370 408,420 412,476 M 412,330 C 416,370 420,420 422,476" fill="none" stroke="#8F2B24" stroke-width="1.2" opacity="0.5"/>
+          </g>
+          <!-- re-cover the shorts area so the muscle starts at the gluteal fold -->
+          <path d="M 382,300 L 478,300 C 482,330 478,352 468,366 C 456,374 440,376 430,376 C 420,376 404,374 392,366 C 382,352 378,330 382,300 Z" fill="#DED7CC"/>
+          <path d="M 382,300 L 478,300 C 482,330 478,352 468,366 C 456,374 440,376 430,376 C 420,376 404,374 392,366 C 382,352 378,330 382,300 Z" fill="none" stroke="#333" stroke-width="4"/>
+          <path d="M 394,372 C 410,378 450,378 466,372" fill="none" stroke="#C9C0B4" stroke-width="2"/>
+          <!-- origin / insertion markers -->
+          <circle cx="410" cy="394" r="5" fill="#7A4A20" stroke="#333" stroke-width="1.5"/>
+          <circle cx="411" cy="498" r="4.5" fill="#7A4A20" stroke="#333" stroke-width="1.5"/>
+          <!-- common tear site -->
+          <path d="M 405 414 l 8 -4 l -2 8 l 9 3 l -9 4 l 2 9 l -8 -5 l -4 8 l -3 -9 l -9 1 l 6 -7 l -7 -6 l 9 -1 l -1 -9 Z" fill="#C73E1D" stroke="#8F2B24" stroke-width="1.5"/>
+
+          <!-- labels -->
+          <g font-size="16" fill="#1A1A1A">
+            <text x="96" y="352"><tspan font-weight="700">起點：坐骨粗隆</tspan><tspan x="96" dy="24" fill="#595959">（臀部坐下時摸到的骨頭）</tspan></text>
+            <path d="M 292 356 C 340 370, 380 386, 404 392" fill="none" stroke="#767676" stroke-width="1.6"/>
+            <circle cx="292" cy="356" r="3" fill="#767676"/>
+
+            <text x="60" y="424"><tspan font-weight="700">股二頭肌（外側）</tspan></text>
+            <path d="M 208 420 C 262 424, 330 430, 388 434" fill="none" stroke="#767676" stroke-width="1.6"/>
+            <circle cx="208" cy="420" r="3" fill="#767676"/>
+
+            <text x="60" y="470"><tspan font-weight="700">半腱肌・半膜肌（內側）</tspan></text>
+            <path d="M 232 466 C 286 466, 360 462, 412 458" fill="none" stroke="#767676" stroke-width="1.6"/>
+            <circle cx="232" cy="466" r="3" fill="#767676"/>
+
+            <text x="96" y="530"><tspan font-weight="700">終點：膝蓋後方→小腿骨</tspan></text>
+            <path d="M 280 526 C 330 518, 390 506, 406 498" fill="none" stroke="#767676" stroke-width="1.6"/>
+            <circle cx="280" cy="526" r="3" fill="#767676"/>
+          </g>
+          <g font-size="16" fill="#1A1A1A">
+            <text x="560" y="404"><tspan font-weight="700">★ 常見撕裂位置</tspan><tspan x="560" dy="24" fill="#595959">大腿後側中上段</tspan><tspan x="560" dy="24" fill="#595959">靠近坐骨的肌肉–肌腱交界</tspan></text>
+            <path d="M 554 404 C 512 414, 452 426, 414 430" fill="none" stroke="#767676" stroke-width="1.6"/>
+            <circle cx="554" cy="404" r="3" fill="#767676"/>
+            <text x="560" y="300"><tspan fill="#922B24" font-weight="700">深紅＝膕旁肌（腿後肌）</tspan><tspan x="560" dy="24" fill="#595959">淺紅＝三條中的內側兩條</tspan></text>
+          </g>
+        </svg>
+      </div>
+    </figure>
+    <div class="card micro" data-check="match" data-activity="m1-muscles">
+      <h4>🔗 配對：三條肌肉各在哪一側？</h4>
+      <p>點左邊一條肌肉，再點右邊它的位置。</p>
+      <div class="match-cols">
+        <div class="match-col">
+          <button class="mchip" data-pair="a">股二頭肌</button>
+          <button class="mchip" data-pair="b">半腱肌・半膜肌</button>
+          <button class="mchip" data-pair="c">三條共同的起點</button>
+        </div>
+        <div class="match-col">
+          <button class="mchip" data-pair="a">大腿外側</button>
+          <button class="mchip" data-pair="b">大腿內側</button>
+          <button class="mchip" data-pair="c">臀部的坐骨</button>
+        </div>
+      </div>
+      <p class="micro-done" hidden>🎯 記重點就好：名字不用背——「三條、從坐骨到膝後、在大腿正後面」。</p>
+    </div>
+    <p class="aside">跨兩個關節是關鍵：它同時跨過髖關節和膝關節，所以<b>彎腰、跨步、伸膝</b>都會拉到它——這也解釋了為什麼這麼多日常動作都會痛。</p>
+  </div>
+
+  <div class="screen">
+    <h3>「跨兩個關節」是什麼意思？</h3>
+    <p>從側面看更清楚：上端掛在骨盆的坐骨，下端接到小腿骨。等於一條橡皮筋綁在兩個關節上——任何一端動，它都被牽動。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 1-2｜側面看：一條肌肉、兩個關節</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="body-svg" role="img" aria-label="人體側視圖：膕旁肌從骨盆後下的坐骨出發，經過大腿後側，跨過髖關節與膝關節，接到小腿骨上端；髖關節彎曲時它被拉長，膝關節彎曲時它縮短出力">
+        <svg viewBox="0 0 820 480" font-family="inherit">
+          <defs>
+            <g id="sv-body">
+              <ellipse cx="330" cy="66" rx="23" ry="27"/>
+              <path d="M 320,90 L 342,90 L 346,114 L 316,114 Z"/>
+              <path d="M 316,112 C 300,134 292,164 298,194 C 302,216 306,236 304,254 C 316,268 336,272 350,264 C 362,258 366,244 360,230 C 368,212 366,192 356,176 C 350,164 348,140 346,114 C 336,106 324,106 316,112 Z"/>
+              <path d="M 322,124 C 310,144 302,172 304,196 L 316,198 C 318,174 326,148 334,130 Z"/>
+              <path d="M 304,194 C 300,218 302,240 308,256 L 320,252 C 316,236 314,216 316,198 Z"/>
+              <ellipse cx="316" cy="264" rx="8" ry="10"/>
+              <path d="M 306,252 C 308,290 318,322 338,346 L 358,340 C 352,318 346,290 344,262 C 332,272 316,270 306,252 Z"/>
+              <path d="M 334,342 C 338,376 346,408 350,434 L 370,432 C 368,402 362,372 358,340 Z"/>
+              <path d="M 350,430 C 343,438 335,446 333,452 C 332,458 342,460 356,456 C 368,452 372,446 370,438 L 368,430 Z"/><line x1="336" y1="452" x2="366" y2="448" stroke="#C9C0B4" stroke-width="2"/>            </g>
+            <g id="sv-top">
+              <path d="M 316,112 C 306,140 300,178 302,214 C 304,234 302,246 300,250 L 346,250 C 348,232 346,210 354,194 C 362,176 358,154 352,142 C 348,130 346,120 346,114 C 336,106 324,106 316,112 Z"/>
+            </g>
+            <g id="sv-shorts">
+              <path d="M 300,244 C 296,268 300,290 312,304 L 352,304 C 354,286 350,262 344,248 C 332,260 312,258 300,244 Z"/>
+            </g>
+          </defs>
+
+          <ellipse cx="350" cy="458" rx="70" ry="6" fill="#000" opacity="0.05"/>
+          <g stroke="#333333" stroke-width="4.5" fill="none" stroke-linejoin="round" stroke-linecap="round"><use href="#sv-body"/></g>
+          <g fill="#F6F2EC"><use href="#sv-body"/></g>
+          <g stroke="#333333" stroke-width="4" fill="none" stroke-linejoin="round"><use href="#sv-top"/><use href="#sv-shorts"/></g>
+          <g fill="#E9E3DA"><use href="#sv-top"/></g>
+          <g fill="#DED7CC"><use href="#sv-shorts"/></g>
+
+          <!-- hair (back of head, facing left) -->
+          <path d="M 328,40 C 346,40 352,54 352,66 C 352,80 346,88 332,90 C 340,78 341,66 339,54 C 338,47 334,42 328,40 Z" fill="#7A716A" stroke="#333" stroke-width="3"/>
+
+          <!-- bone hints + joints -->
+          <path d="M 318,240 C 330,234 342,238 348,248 C 352,258 348,266 340,270 C 330,264 320,256 316,248 Z" fill="#EFE7DA" stroke="#9C8F7C" stroke-width="1.8" stroke-dasharray="5 4"/>
+          <line x1="334" y1="266" x2="346" y2="342" stroke="#9C8F7C" stroke-width="5" stroke-dasharray="7 4" opacity="0.7"/>
+          <line x1="352" y1="350" x2="356" y2="430" stroke="#9C8F7C" stroke-width="4.5" stroke-dasharray="7 4" opacity="0.7"/>
+          <circle cx="338" cy="262" r="8.5" fill="#EFE7DA" stroke="#8F867C" stroke-width="2"/>
+          <circle cx="348" cy="344" r="8.5" fill="#EFE7DA" stroke="#8F867C" stroke-width="2"/>
+          <circle cx="336" cy="268" r="4" fill="#7A4A20"/>
+
+          <!-- hamstring band: sit bone → behind knee → upper tibia -->
+          <path d="M 336,268 C 340,290 346,312 354,332 L 362,328 C 356,308 350,286 347,266 Z" fill="#B23A32" fill-opacity="0.85" stroke="#8F2B24" stroke-width="1.5"/>
+          <path d="M 350,336 C 356,340 360,346 362,352 C 364,358 362,364 356,366 L 350,358 C 348,352 346,344 344,340 Z" fill="#B23A32" fill-opacity="0.6" stroke="#8F2B24" stroke-width="1.4"/>
+
+          <!-- labels -->
+          <g font-size="16" fill="#1A1A1A">
+            <text x="430" y="228"><tspan font-weight="700">起點：坐骨</tspan></text>
+            <path d="M 428 236 L 346 262" fill="none" stroke="#767676" stroke-width="1.6"/>
+            <circle cx="346" cy="262" r="3" fill="#767676"/>
+
+            <text x="210" y="288"><tspan font-weight="700">髖關節</tspan></text>
+            <path d="M 268 284 L 328 266" fill="none" stroke="#767676" stroke-width="1.6"/>
+            <circle cx="328" cy="266" r="3" fill="#767676"/>
+
+            <text x="470" y="320"><tspan font-weight="700">膝關節</tspan></text>
+            <path d="M 466 316 L 358 342" fill="none" stroke="#767676" stroke-width="1.6"/>
+            <circle cx="358" cy="342" r="3" fill="#767676"/>
+
+            <text x="270" y="430"><tspan font-weight="700">終點：小腿骨上端</tspan></text>
+            <path d="M 402 424 L 358 428" fill="none" stroke="#767676" stroke-width="1.6"/>
+            <circle cx="358" cy="428" r="3" fill="#767676"/>
+          </g>
+
+          <!-- action arrows -->
+          <defs>
+            <marker id="svArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 Z" fill="#922B24"/>
+            </marker>
+          </defs>
+          <g>
+            <path d="M 208 128 C 240 132, 274 146, 292 168" fill="none" stroke="#922B24" stroke-width="2.6" stroke-dasharray="7 5" marker-end="url(#svArrow)"/>
+            <text x="120" y="96" font-size="16" fill="#922B24"><tspan font-weight="700">① 彎腰／坐姿前傾</tspan><tspan x="120" dy="24">髖關節彎 → 它被</tspan><tspan x="120" dy="24" font-weight="700">拉長</tspan></text>
+          </g>
+          <g>
+            <path d="M 410 442 C 400 424, 394 406, 396 386" fill="none" stroke="#922B24" stroke-width="2.6" stroke-dasharray="7 5" marker-end="url(#svArrow)"/>
+            <text x="470" y="396" font-size="16" fill="#922B24"><tspan font-weight="700">② 屈膝</tspan><tspan x="470" dy="24">膝關節彎 → 它</tspan><tspan x="470" dy="24" font-weight="700">縮短用力</tspan></text>
+          </g>
+        </svg>
+      </div>
+    </figure>
+    <p>所以膕旁肌同時做兩份工作：<b>走路時把大腿往後推</b>（推進力），以及<b>把膝蓋彎起來</b>。妳現在走路會痛，就是因為每走一步，這兩份工作它都得做。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 1-3｜膕旁肌小檔案：一張卡看完</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="mermaid">
+mindmap
+  root(("膕旁肌小檔案"))
+    構造
+      三條肌肉並排
+      股二頭肌在外側
+      半腱肌半膜肌在內側
+    位置
+      從臀部坐骨出發
+      到膝蓋後方小腿骨
+      跨髖和膝兩個關節
+    工作
+      走路把大腿往後推
+      把膝蓋彎起來
+    弱點
+      彎腰加伸膝時被拉到最長
+      全身最常拉傷的肌肉之一
+      </div>
+    </figure>
+    <div class="card micro" data-check="mc1" data-activity="m1-twojoints">
+      <h4>🧠 快問快答</h4>
+      <p class="q-text">彎腰撿東西時，膝蓋伸直、髖關節彎曲——膕旁肌此時被怎麼樣？</p>
+      <div class="opts">
+        <button class="opt" data-fb="❌ 它不是縮短，是被拉到最長——這正是拉傷最常發生的姿勢。">縮短用力</button>
+        <button class="opt" data-fb="❌ 它一定被牽動：它兩端分別掛在骨盆和小腿上，彎腰就會拉長它。">完全沒被牽動</button>
+        <button class="opt" data-ok="true" data-fb="✅ 對。髖彎＋膝直＝兩個關節同時把它拉開——這就是「彎腰撿東西」經典拉傷姿勢的原因。">被拉到最長</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="screen">
+    <h3>「部分撕裂」到底裂了多少？</h3>
+    <p>家人判斷是部分撕裂（第二級）。用肌肉纖維的真人體圖來看三個等級的差別——知道自己在哪一級，就知道自己為什麼走快會痛、為什麼不能急。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 1-4｜拉傷三級：肌肉纖維的真實樣子</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="body-svg" role="img" aria-label="三個等級的肌肉拉傷插圖：第一級微拉傷只有少數纖維斷裂；第二級部分撕裂有明顯裂口與瘀血，力量明顯受影響，需要六到十二週；第三級完全斷裂，肌肉分成兩段">
+        <svg viewBox="0 0 900 420" font-family="inherit">
+          <defs>
+            <g id="muscle1">
+              <path d="M 60,200 C 60,176, 92,164, 128,162 L 190,162 C 232,162, 258,178, 258,200 C 258,222, 232,238, 190,238 L 128,238 C 92,236, 60,224, 60,200 Z"/>
+              <path d="M 40,196 L 68,186 L 68,214 L 40,204 Z"/>
+              <path d="M 258,186 L 286,196 L 286,204 L 258,214 Z"/>
+            </g>
+          </defs>
+          <g stroke="#E5E5E5" stroke-width="1.5">
+            <rect x="14" y="14" width="278" height="392" rx="14" fill="#FFFFFF"/>
+            <rect x="308" y="14" width="284" height="392" rx="14" fill="#FFFFFF" stroke="#B23A32" stroke-width="2.5"/>
+            <rect x="608" y="14" width="278" height="392" rx="14" fill="#FFFFFF"/>
+          </g>
+          <text x="30" y="48" font-size="18" font-weight="700" fill="#1A1A1A">第一級｜微拉傷</text>
+          <text x="326" y="48" font-size="18" font-weight="700" fill="#922B24">第二級｜部分撕裂 ★妳在這</text>
+          <text x="624" y="48" font-size="18" font-weight="700" fill="#1A1A1A">第三級｜完全斷裂</text>
+
+          <!-- grade I -->
+          <g>
+            <use href="#muscle1" fill="#EFB9B1"/>
+            <path d="M 74,176 C 116,170, 200,170, 244,176 M 64,188 C 110,182, 206,182, 252,188 M 64,200 C 110,194, 206,194, 252,200 M 64,212 C 110,206, 206,206, 252,212 M 74,224 C 116,218, 200,218, 244,224" fill="none" stroke="#C4897F" stroke-width="1.6"/>
+            <path d="M 120 194 L 136 194 M 144 194 L 150 194" stroke="#C73E1D" stroke-width="3" stroke-linecap="round"/>
+            <path d="M 168 206 L 182 206" stroke="#C73E1D" stroke-width="3" stroke-linecap="round"/>
+            <use href="#muscle1" fill="none" stroke="#8F2B24" stroke-width="2"/>
+          </g>
+          <!-- grade II -->
+          <g>
+            <use href="#muscle1" x="300" y="0" fill="#E5968C"/>
+            <path d="M 374,176 C 416,170, 500,170, 544,176 M 364,188 C 410,182, 506,182, 552,188 M 364,200 C 410,194, 506,194, 552,200 M 364,212 C 410,206, 506,206, 552,212 M 374,224 C 416,218, 500,218, 544,224" fill="none" stroke="#B06A5F" stroke-width="1.6"/>
+            <path d="M 456,166 C 450,184, 452,214, 458,236 C 464,214, 464,184, 458,166 Z" fill="#FFFFFF" stroke="#8F2B24" stroke-width="1.8"/>
+            <circle cx="428" cy="188" r="3" fill="#7A4A20"/><circle cx="420" cy="208" r="2.6" fill="#7A4A20"/><circle cx="432" cy="222" r="2.4" fill="#7A4A20"/>
+            <circle cx="492" cy="186" r="2.8" fill="#7A4A20"/><circle cx="500" cy="212" r="2.4" fill="#7A4A20"/>
+            <path d="M 470 150 C 480 142, 492 142, 500 150 M 466 252 C 478 260, 490 260, 498 252" stroke="#C73E1D" stroke-width="2" fill="none" stroke-linecap="round"/>
+            <use href="#muscle1" x="300" y="0" fill="none" stroke="#8F2B24" stroke-width="2"/>
+          </g>
+          <!-- grade III -->
+          <g>
+            <path d="M 640,200 C 640,176, 668,164, 706,164 C 730,164, 742,176, 744,192 C 746,208, 740,224, 722,232 C 706,238, 686,236, 672,230 C 654,224, 640,216, 640,200 Z" fill="#DE8377" stroke="#8F2B24" stroke-width="2"/>
+            <path d="M 768,196 C 768,176, 788,166, 812,170 C 834,174, 848,186, 848,202 C 848,220, 832,234, 808,236 C 788,238, 772,228, 768,212 Z" fill="#DE8377" stroke="#8F2B24" stroke-width="2"/>
+            <line x1="622" y1="200" x2="642" y2="200" stroke="#D9D4CE" stroke-width="10" stroke-linecap="round"/>
+            <line x1="846" y1="200" x2="866" y2="200" stroke="#D9D4CE" stroke-width="10" stroke-linecap="round"/>
+            <path d="M 650 182 C 682 174, 712 176, 734 186 M 652 200 C 680 194, 706 196, 726 204 M 654 218 C 684 214, 712 216, 730 224 M 776 182 C 798 178, 822 182, 838 190 M 778 204 C 800 200, 822 204, 836 210 M 780 222 C 800 220, 820 222, 834 228" stroke="#A96156" stroke-width="1.6" fill="none"/>
+            <path d="M 746 190 C 754 186, 762 188, 766 194 M 748 212 C 756 218, 764 218, 770 212" stroke="#8F2B24" stroke-width="2.2" fill="none"/>
+            <text x="736" y="262" font-size="16" fill="#595959" text-anchor="middle">肌肉完全分成兩段</text>
+          </g>
+
+          <g font-size="16" fill="#1A1A1A">
+            <text x="30" y="292"><tspan>少數纖維受損</tspan><tspan x="30" dy="26" fill="#595959">力量幾乎不受影響</tspan><tspan x="30" dy="26" fill="#595959">數天～2 週恢復</tspan></text>
+            <text x="326" y="292"><tspan>一部分纖維斷裂＋瘀血</tspan><tspan x="326" dy="26" fill="#595959">走路會痛、用力更痛</tspan><tspan x="326" dy="26" fill="#595959">需 6–12 週漸進負重</tspan></text>
+            <text x="624" y="292"><tspan>整條肌肉分開</tspan><tspan x="624" dy="26" fill="#595959">無法用力、大量瘀血</tspan><tspan x="624" dy="26" fill="#595959">通常需就醫評估</tspan></text>
+          </g>
+          <g font-size="15" fill="#922B24">
+            <text x="326" y="374" font-weight="700">★ 撕裂未經影像確認前，一律按這一級的</text>
+            <text x="326" y="396" font-weight="700">　　保守速度養——做對了不會吃虧。</text>
+          </g>
+        </svg>
+      </div>
+    </figure>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 1-5｜受傷那一瞬間，發生了什麼</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="mermaid">
+flowchart LR
+  A["彎腰・跨步・滑一下"] --> B["肌肉一邊被拉長<br>一邊突然收縮"]
+  B --> C["負荷超過纖維強度"]
+  C --> D["部分纖維撕裂"]
+  D --> E["發炎反應上場<br>痛・腫・繃緊"]
+      </div>
+    </figure>
+  </div>
+
+  <div class="screen">
+    <h3>為什麼一個多月了還沒好？</h3>
+    <p>這不是「好得慢」，是<b>本來就需要這麼久</b>。肌肉修復有自己的時間表，而且年過五十、平時少動，供給修復的血流本來就少一些。下圖是修復的全程——注意中間那段。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 1-6｜肌肉修復時間軸：疤痕要長、還要變強</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="mermaid">
+flowchart LR
+  P1["① 發炎清理期<br>第 0～7 天<br>清走壞損組織・很痛"] --> P2["② 疤痕生成期<br>第 1～6 週<br>身體急著用疤痕補洞<br>但此時疤痕很嫩"]
+  P2 --> P3["③ 重塑強化期<br>第 6 週～數月<br>疤痕重新排列<br>慢慢變強韌"]
+  P2 -.->|"第 4～6 週<br>★ 妳在這裡：自覺好多了<br>但疤痕仍嫩＝再撕裂危險窗"| W["⚠️ 危險窗"]
+      </div>
+    </figure>
+    <p class="aside">最危險的組合是：<b>「感覺不太痛了」＋「想趕快恢復正常」</b>。疤痕在第 4～6 週還像新補的水泥——外表看起來行了，載重還不行。這門課接下來做的每件事，都是在教妳「給它剛好的壓力，不給它多餘的傷」。</p>
+    <div class="card micro" data-check="reveal" data-activity="m1-why">
+      <h4>🔮 先猜再看</h4>
+      <p>妳覺得「受傷滿一個月還會痛」最可能是哪個原因？點開看答案。</p>
+      <div class="reveal-group">
+        <button class="reveal-card"><span class="front">「我太老了<br>好不了」</span><span class="back"><b>不是</b><br>五十歲的肌肉照樣修復——只是需要規律的溫和負重，比年輕時多一些耐心</span></button>
+        <button class="reveal-card"><span class="front">「當初傷得<br>不輕」</span><span class="back"><b>部分正確</b><br>第二級撕裂本來就要 6–12 週；一個月還痛，在正常範圍內</span></button>
+        <button class="reveal-card"><span class="front">「我動太少<br>或動太多」</span><span class="back"><b>最常見</b><br>肌肉要「剛好的負重」才會修復——完全不動或突然多做，疤痕都長不好</span></button>
+      </div>
+      <p class="micro-done" hidden>🎯 三個答案都指向同一件事：接下來的 6 週，節奏比努力重要。</p>
+    </div>
+  </div>
+
+  <div class="card check-card" data-check="mc" data-activity="m1-check">
+    <h3>✅ 檢查理解</h3>
+    <p class="check-note">不計分、可以重試。答錯不是失敗，是線索。</p>
+    <div class="mc-q">
+      <p class="q-text">1. 膕旁肌為什麼「彎腰也痛、坐久也痛、走路也痛」？</p>
+      <div class="opts">
+        <button class="opt" data-fb="❌ 它不只跨膝蓋——上面還掛在骨盆的坐骨上，所以彎腰（髖關節彎）也會拉到它。再看一次圖 1-2。">因為它只跨過膝關節</button>
+        <button class="opt" data-ok="true" data-fb="✅ 對。跨髖＋膝兩個關節，幾乎所有下半身動作都會牽動它——所以要在「對的範圍」動，而不是不動。">因為它同時跨髖關節和膝關節</button>
+        <button class="opt" data-fb="❌ 它是大腿正後方、膝蓋上方的肌肉——大腿前面是股四頭肌，那是另一組。">因為它長在大腿前面</button>
+      </div>
+    </div>
+    <div class="mc-q">
+      <p class="q-text">2. 受傷滿一個月「比較不痛了」，接下來最該注意的是什麼？</p>
+      <div class="opts">
+        <button class="opt" data-fb="❌ 這正是第 4～6 週的陷阱：疤痕還嫩，馬上回到全套活動是再撕裂的經典劇本。">趁不痛趕快把活動量加回來</button>
+        <button class="opt" data-fb="❌ 完全不動反而讓疤痕長得亂、肌肉萎縮——修復需要「溫和的負重」。">完全休息到完全不痛為止</button>
+        <button class="opt" data-ok="true" data-fb="✅ 對。此時是再撕裂危險窗：維持溫和漸進的計畫，用疼痛紅綠燈（第 2 章）控制強度。">還在危險窗——照漸進計畫走，不跳級</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card short-card" data-check="short" data-activity="m1-short"
+       data-model="參考答案：大腿後面那條是膕旁肌，由三條肌肉組成，從臀部坐骨長到膝蓋後面，跨髖和膝兩個關節。它疑似部分撕裂：一部分纖維斷了，本來就需要 6–12 週。滿一個月還痛是正常的——現在正是疤痕最嫩的危險窗，感覺好些了也不能跳級，要照漸進計畫溫和地動。"
+       data-selfcheck="我說得出它在哪、從哪裡到哪裡|我說得出「部分撕裂」和微拉傷的差別|我知道第 4～6 週為什麼是危險窗">
+    <h3>✍️ 換妳說說</h3>
+    <p class="check-note">用自己的話，2–4 句：她的大腿後面發生了什麼？為什麼一個月了還沒好？自動保存，只有妳看得到。</p>
+  </div>
+</section>
+<!-- ═══════════════ MODULE 2 ═══════════════ -->
+<section class="module" data-module="m2" id="m2">
+  <header class="module-head">
+    <div class="module-num">2</div>
+    <div class="module-title">
+      <h2>復原的三條規則——疼痛紅綠燈</h2>
+      <p class="module-sub">這章學會「聽懂痛在說什麼」，妳就能自己調整每天的做法。</p>
+    </div>
+    <div class="time-chip">≈5 分鐘閱讀 · 2 分鐘測驗 · 實驗室 8–10 分鐘</div>
+  </header>
+
+  <div class="screen">
+    <div class="card micro recall" data-check="mc1" data-activity="m2-recall">
+      <h4>🧠 還記得上一章嗎？</h4>
+      <p class="q-text">受傷滿一個月、感覺「好多了」，這時的膕旁肌其實處於什麼狀態？</p>
+      <div class="opts">
+        <button class="opt" data-fb="❌ 完全長好就不會在走久時痛了——現在還在修復中後段。">已經完全長好了</button>
+        <button class="opt" data-ok="true" data-fb="✅ 對——疤痕還嫩，正是再撕裂危險窗。這一章就教妳怎麼在這個窗口安全地動。">疤痕還嫩：危險窗，要漸進</button>
+        <button class="opt" data-fb="❌ 傷不會自己變嚴重——會變嚴重的是「做太多」。規則馬上學。">正在惡化，最好別動</button>
+      </div>
+    </div>
+    <h3>先學全課程最重要的一張圖</h3>
+    <p>0 到 10 分，「10 分」是妳想像中最痛，「0 分」是完全不痛。<b>動作進行中</b>的分數，決定妳繼續、減量、還是停。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 2-1｜疼痛紅綠燈：動作中幾分，就照哪個燈走</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="body-svg" role="img" aria-label="疼痛紅綠燈量表：0到3分綠燈安全可繼續，是一種拉扯或痠的工作感；4到5分黃燈警告，這組做完就收工或減半；6到10分紅燈停止，當天結束，若反覆發生要回診。下方隔天規則：隔天早上更痛，代表昨天份量太多，今天減半">
+        <svg viewBox="0 0 900 340" font-family="inherit">
+          <!-- zone bars -->
+          <rect x="60" y="92" width="300" height="56" rx="12" fill="#1B7F3B" fill-opacity="0.14" stroke="#1B7F3B" stroke-width="2.5"/>
+          <rect x="370" y="92" width="180" height="56" rx="12" fill="#8A5A00" fill-opacity="0.14" stroke="#8A5A00" stroke-width="2.5"/>
+          <rect x="560" y="92" width="280" height="56" rx="12" fill="#B23A32" fill-opacity="0.14" stroke="#B23A32" stroke-width="2.5"/>
+          <!-- lights -->
+          <circle cx="100" cy="120" r="16" fill="#1B7F3B"/>
+          <circle cx="410" cy="120" r="16" fill="#C8930A"/>
+          <circle cx="600" cy="120" r="16" fill="#B23A32"/>
+          <g font-size="19" font-weight="700" fill="#1A1A1A">
+            <text x="128" y="127">綠燈 0–3 分</text>
+            <text x="436" y="127">黃燈 4–5 分</text>
+            <text x="626" y="127">紅燈 6–10 分</text>
+          </g>
+          <!-- ticks -->
+          <g font-size="15" fill="#595959" text-anchor="middle">
+            <text x="90" y="180">0</text><text x="150" y="180">1</text><text x="210" y="180">2</text><text x="270" y="180">3</text>
+            <text x="400" y="180">4</text><text x="490" y="180">5</text>
+            <text x="630" y="180">6</text><text x="700" y="180">7</text><text x="770" y="180">8</text><text x="820" y="180">9–10</text>
+          </g>
+          <!-- zone captions -->
+          <g font-size="16" fill="#1A1A1A">
+            <text x="90" y="216"><tspan font-weight="700">安全，繼續。</tspan><tspan x="90" dy="26" fill="#595959">拉一下、痠一下的工作感，</tspan><tspan x="90" dy="26" fill="#595959">停手 1 分鐘內就退 → 這是修復在吃藥</tspan></text>
+            <text x="400" y="216"><tspan font-weight="700">警告，減量。</tspan><tspan x="400" dy="26" fill="#595959">這組做完就收工，</tspan><tspan x="400" dy="26" fill="#595959">或次數直接減半</tspan></text>
+            <text x="630" y="216"><tspan font-weight="700">停止。</tspan><tspan x="630" dy="26" fill="#595959">當天運動結束；</tspan><tspan x="630" dy="26" fill="#595959">反覆發生 → 回診</tspan></text>
+          </g>
+          <!-- next-day rule strip -->
+          <rect x="60" y="286" width="780" height="40" rx="10" fill="#F7F3EC" stroke="#D6C9B2" stroke-width="1.6"/>
+          <text x="82" y="312" font-size="16.5" fill="#1A1A1A"><tspan font-weight="700">隔天規則：</tspan>第二天早上比平常更痛、更僵 → 昨天份量太多，今天全部<tspan font-weight="700">減半</tspan>。這條和紅綠燈一起用。</text>
+        </svg>
+      </div>
+    </figure>
+    <div class="card micro" data-check="reveal" data-activity="m2-feel">
+      <h4>🔮 這些「感覺」各算幾分？</h4>
+      <p>點開看看分數怎麼抓——抓個大概就好，不用精確。</p>
+      <div class="reveal-group">
+        <button class="reveal-card"><span class="front">拉筋時的<br>緊繃拉感</span><span class="back"><b>≈ 2–3 分</b><br>綠燈。拉扯感、痠感，停手就退</span></button>
+        <button class="reveal-card"><span class="front">有點痛、<br>表情變了</span><span class="back"><b>≈ 4–5 分</b><br>黃燈。會想皺眉、想換姿勢</span></button>
+        <button class="reveal-card"><span class="front">刺痛、<br>想縮腳</span><span class="back"><b>≈ 6 分以上</b><br>紅燈。像被電到、必須中斷</span></button>
+      </div>
+      <p class="micro-done" hidden>🎯 有不確定就抓中間值、往保守那側走——紅綠燈是保險，不是考試。</p>
+    </div>
+  </div>
+
+  <div class="screen">
+    <h3>規則一：溫和的壓力是藥，不是敵人</h3>
+    <p>修復期的肌肉像捏麵團：完全不碰，<span class="term" data-term="疤痕組織">疤痕</span>會長得又短又亂；每天溫和地拉一拉、壓一壓，疤痕才會順著肌肉的方向排列、變強。所以「能不動就不動」反而是恢復慢的原因之一。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 2-2｜兩種極端 vs 中間的正確答案</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="mermaid">
+flowchart LR
+  A["完全不動<br>保護過頭"] --> X["疤痕短・亂<br>肌肉萎縮<br>越養越緊"]
+  B["趕快加量<br>急著補進度"] --> Y["超出疤痕強度<br>再撕裂<br>退回起點"]
+  C["綠燈內的<br>溫和漸進負重"] --> Z["疤痕順向排列<br>慢慢變強<br>真的進步"]
+      </div>
+    </figure>
+    <p class="aside">五十歲之後，肌肉「用進廢退」更快——每天十分鐘的溫和動作，比一週一次的大運動有效得多，也安全得多。</p>
+  </div>
+
+  <div class="screen">
+    <h3>規則二：痛會騙人——所以用燈，不用感覺</h3>
+    <p>修復中的肌肉對「痠、緊、工作感」和「傷害性痛」分不太清楚，人很容易自己嚇自己、或自己騙自己。別猜——<b>動作中打分數，照燈走</b>。黃燈不是失敗，是肌肉在說「今天這樣剛好」。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 2-3｜遇到痛的當下，決定只花 5 秒</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="mermaid">
+flowchart TD
+  S["動作進行中<br>幫痛打個分數"] --> Q1{"幾分？"}
+  Q1 -- "0–3" --> G["綠燈：繼續今天的計畫"]
+  Q1 -- "4–5" --> Y["黃燈：這組做完就收工<br>或次數減半"]
+  Q1 -- "6 以上" --> R["紅燈：立刻停<br>今天不再勉強"]
+  Y --> N["第二天早上呢？"]
+  G --> N
+  N -- "更痛更僵" --> H["昨天份量減半<br>不是停止"]
+  N -- "差不多" --> K["照原計畫"]
+  N -- "更輕鬆" --> M["可以小小加一點"]
+      </div>
+    </figure>
+    <div class="card micro" data-check="mc1" data-activity="m2-miscon">
+      <h4>🧠 常見誤解</h4>
+      <p class="q-text">「做動作時有感覺＝傷又在變嚴重」——這句話對嗎？</p>
+      <div class="opts">
+        <button class="opt" data-fb="❌ 如果是這樣，康復計畫裡就不會有動作了。關鍵在分數：綠燈內的感覺是正常的。">對，有感覺就該停</button>
+        <button class="opt" data-ok="true" data-fb="✅ 對。0–3 分的拉扯/痠是修復需要的「工作感」；要停的是 6 分以上的痛和反覆的紅燈。">不一定——看分數在哪个燈</button>
+        <button class="opt" data-fb="❌ 痛覺本來就會保護傷處，但它分不清「痠」和「傷」——所以才需要紅綠燈這個外掛儀表。">不對，痛覺最準</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="screen">
+    <h3>規則三：進步看「隔天」，不是「當下」</h3>
+    <p>當下的感覺會被心情、天氣、疲勞干擾。<b>第二天早上</b>才是誠實的計分板：隔天更痛更僵＝昨天太多（減半）；隔天差不多＝照舊；隔天更輕鬆＝可以小加。記錄三天，妳就會開始看到自己的模式。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 2-4｜疼痛狀態機：妳每天都在這幾個狀態間移動</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="mermaid">
+stateDiagram-v2
+  direction LR
+  [*] --> 綠燈穩定
+  綠燈穩定 --> 綠燈穩定 : 照計畫・小加
+  綠燈穩定 --> 黃燈挑戰 : 動作中 4–5 分
+  黃燈挑戰 --> 綠燈穩定 : 收工或減半・隔天OK
+  黃燈挑戰 --> 紅燈警報 : 升到 6 分以上
+  紅燈警報 --> 綠燈穩定 : 休息幾天回到計畫
+  紅燈警報 --> 回診 : 一週內紅燈兩次以上
+      </div>
+    </figure>
+  </div>
+
+  <div class="screen">
+    <h3>坐著的時候，它正在被壓著</h3>
+    <p>膕旁肌沿著大腿下側跨過椅面前緣——<b>坐姿就是它的姿勢</b>。坐得好，它在休息；坐得歪（滑坐、翹腳、椅子太高腳懸空），同一條肌肉被壓住又縮短，起身的緊繃感就加重。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 2-5｜兩種坐姿：同一位女士，兩種結果</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="body-svg" role="img" aria-label="坐姿側視圖對照：左圖坐好——臀部坐滿椅面、背打直、雙腳平踏地面，膕旁肌放鬆；右圖滑坐駝背且翹腳，大腿後側被椅面前緣壓迫，膕旁肌被壓住又縮短">
+        <svg viewBox="0 0 920 440" font-family="inherit">
+          <!-- ══ panel 1: good sitting (backrest behind, facing left) ══ -->
+          <g stroke="#333" stroke-width="3.5" fill="#EAE4DB" stroke-linejoin="round">
+            <rect x="150" y="290" width="150" height="10" rx="4"/>
+            <rect x="298" y="160" width="10" height="140" rx="4"/>
+            <rect x="164" y="300" width="8" height="96" rx="3"/>
+            <rect x="286" y="300" width="8" height="96" rx="3"/>
+          </g>
+          <!-- torso capsule + tank -->
+          <line x1="258" y1="282" x2="250" y2="156" stroke="#333" stroke-width="50" stroke-linecap="round"/>
+          <line x1="258" y1="282" x2="250" y2="156" stroke="#F6F2EC" stroke-width="42" stroke-linecap="round"/>
+          <line x1="256" y1="272" x2="251" y2="172" stroke="#333" stroke-width="42" stroke-linecap="round"/>
+          <line x1="256" y1="272" x2="251" y2="172" stroke="#E9E3DA" stroke-width="35" stroke-linecap="round"/>
+          <!-- head -->
+          <ellipse cx="250" cy="126" rx="19" ry="22" fill="#F6F2EC" stroke="#333" stroke-width="4"/>
+          <path d="M 248,104 C 264,104 269,116 269,126 C 269,138 264,144 252,146 C 258,136 259,126 257,116 C 256,110 253,107 248,104 Z" fill="#7A716A" stroke="#333" stroke-width="2.5"/>
+          <!-- thigh + shin + foot -->
+          <line x1="258" y1="286" x2="178" y2="292" stroke="#333" stroke-width="36" stroke-linecap="round"/>
+          <line x1="258" y1="286" x2="178" y2="292" stroke="#F6F2EC" stroke-width="28" stroke-linecap="round"/>
+          <line x1="178" y1="292" x2="176" y2="368" stroke="#333" stroke-width="32" stroke-linecap="round"/>
+          <line x1="178" y1="292" x2="176" y2="368" stroke="#F6F2EC" stroke-width="24" stroke-linecap="round"/>
+          <path d="M 160,368 C 152,372 142,378 140,384 L 166,388 L 190,386 L 190,370 Z" fill="#F6F2EC" stroke="#333" stroke-width="4" stroke-linejoin="round"/>
+          <!-- arm -->
+          <line x1="252" y1="164" x2="216" y2="276" stroke="#333" stroke-width="22" stroke-linecap="round"/>
+          <line x1="252" y1="164" x2="216" y2="276" stroke="#F6F2EC" stroke-width="14" stroke-linecap="round"/>
+          <!-- hamstring under thigh -->
+          <line x1="248" y1="302" x2="198" y2="306" stroke="#B23A32" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+          <!-- floor -->
+          <line x1="70" y1="400" x2="380" y2="400" stroke="#D6D6D6" stroke-width="2.5" stroke-linecap="round"/>
+          <!-- annotations -->
+          <g font-size="16" fill="#1B7F3B">
+            <text x="96" y="40" font-weight="700" font-size="18">✓ 坐好</text>
+            <text x="36" y="200"><tspan>背打直</tspan><tspan x="36" dy="24">腳踏平</tspan></text>
+            <path d="M 112 196 L 226 214" stroke="#1B7F3B" stroke-width="1.6"/>
+            <text x="330" y="230"><tspan>臀坐滿椅面</tspan></text>
+            <path d="M 326 234 L 274 268" stroke="#1B7F3B" stroke-width="1.6"/>
+            <text x="330" y="322"><tspan>膕旁肌放鬆</tspan><tspan x="330" dy="24">只在椅緣輕輕經過</tspan></text>
+            <path d="M 326 318 L 248 304" stroke="#1B7F3B" stroke-width="1.6"/>
+          </g>
+
+          <!-- ══ panel 2: slouched + crossed ══ -->
+          <g stroke="#333" stroke-width="3.5" fill="#EAE4DB" stroke-linejoin="round">
+            <rect x="620" y="290" width="150" height="10" rx="4"/>
+            <rect x="768" y="160" width="10" height="140" rx="4"/>
+            <rect x="634" y="300" width="8" height="96" rx="3"/>
+            <rect x="756" y="300" width="8" height="96" rx="3"/>
+          </g>
+          <!-- slouched torso: hips forward, shoulders forward-down -->
+          <line x1="730" y1="286" x2="700" y2="170" stroke="#333" stroke-width="50" stroke-linecap="round"/>
+          <line x1="730" y1="286" x2="700" y2="170" stroke="#F6F2EC" stroke-width="42" stroke-linecap="round"/>
+          <line x1="727" y1="276" x2="702" y2="184" stroke="#333" stroke-width="42" stroke-linecap="round"/>
+          <line x1="727" y1="276" x2="702" y2="184" stroke="#E9E3DA" stroke-width="35" stroke-linecap="round"/>
+          <!-- head forward -->
+          <ellipse cx="690" cy="146" rx="19" ry="22" fill="#F6F2EC" stroke="#333" stroke-width="4"/>
+          <path d="M 688,124 C 704,124 709,136 709,146 C 709,158 704,164 692,166 C 698,156 699,146 697,136 C 696,130 693,127 688,124 Z" fill="#7A716A" stroke="#333" stroke-width="2.5"/>
+          <!-- support leg -->
+          <line x1="730" y1="290" x2="646" y2="298" stroke="#333" stroke-width="36" stroke-linecap="round"/>
+          <line x1="730" y1="290" x2="646" y2="298" stroke="#F6F2EC" stroke-width="28" stroke-linecap="round"/>
+          <line x1="646" y1="298" x2="644" y2="370" stroke="#333" stroke-width="32" stroke-linecap="round"/>
+          <line x1="646" y1="298" x2="644" y2="370" stroke="#F6F2EC" stroke-width="24" stroke-linecap="round"/>
+          <path d="M 628,370 C 620,374 610,380 608,386 L 634,390 L 658,388 L 658,372 Z" fill="#F6F2EC" stroke="#333" stroke-width="4" stroke-linejoin="round"/>
+          <!-- crossed leg over the other knee -->
+          <line x1="728" y1="284" x2="668" y2="258" stroke="#333" stroke-width="30" stroke-linecap="round"/>
+          <line x1="728" y1="284" x2="668" y2="258" stroke="#F6F2EC" stroke-width="22" stroke-linecap="round"/>
+          <line x1="668" y1="258" x2="648" y2="286" stroke="#333" stroke-width="26" stroke-linecap="round"/>
+          <line x1="668" y1="258" x2="648" y2="286" stroke="#F6F2EC" stroke-width="18" stroke-linecap="round"/>
+          <ellipse cx="642" cy="294" rx="10" ry="7" fill="#F6F2EC" stroke="#333" stroke-width="3.5"/>
+          <!-- pressure star on compressed hamstring -->
+          <path d="M 680 298 l 7 -3 l -1.5 7 l 8 3 l -8 3.5 l 1.5 8 l -7 -4.5 l -3.5 7 l -2.5 -8 l -8 1 l 5 -6 l -6 -5 l 8 -1 l -1 -8 Z" fill="#C73E1D" stroke="#8F2B24" stroke-width="1.5"/>
+          <line x1="70" y1="400" x2="860" y2="400" stroke="#D6D6D6" stroke-width="2.5" stroke-linecap="round" opacity="0"/>
+          <line x1="540" y1="400" x2="860" y2="400" stroke="#D6D6D6" stroke-width="2.5" stroke-linecap="round"/>
+          <g font-size="16" fill="#922B24">
+            <text x="540" y="40" font-weight="700" font-size="18">✗ 滑坐＋翹腳</text>
+            <text x="470" y="196"><tspan>臀往前滑</tspan><tspan x="470" dy="24">駝背・脖子前傾</tspan></text>
+            <path d="M 566 200 L 660 214" stroke="#922B24" stroke-width="1.6"/>
+            <text x="790" y="330"><tspan>翹腳＝大腿後側</tspan><tspan x="790" dy="24">被壓住又扭轉</tspan></text>
+            <path d="M 786 326 L 706 306" stroke="#922B24" stroke-width="1.6"/>
+          </g>
+          <text x="460" y="430" font-size="16" fill="#595959" text-anchor="middle">小改變：臀部往椅背推到底＋雙腳平放＋每 45 分鐘起身 1 分鐘</text>
+        </svg>
+      </div>
+    </figure>
+    <div class="card micro" data-check="order" data-activity="m2-order" data-answer="打分數,看燈,隔天早上再驗收">
+      <h4>🧩 排排看：動作中痛起來，正確順序是？</h4>
+      <p>點積木放到答案列（排錯點它可以拿回來）。</p>
+      <div class="order-tiles" data-tiles>
+        <button class="tile" data-tile="隔天早上再驗收">隔天早上再驗收</button>
+        <button class="tile" data-tile="打分數">打分數</button>
+        <button class="tile" data-tile="看燈">看燈</button>
+      </div>
+      <div class="order-slots" data-slots aria-label="答案區"></div>
+      <p class="micro-done" hidden>🎯 打分數 → 看燈 → 隔天早上再驗收。三步永遠這個順序。</p>
+    </div>
+  </div>
+
+  <div class="screen">
+    <h3>把規則放進一天裡</h3>
+    <p>規則不是背出來的，是長在作息裡的。下面是一個參考節奏——第 3 章會給妳具體動作，第 4 章再給日常紅線。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 2-6｜一天的恢復節奏（參考）</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="mermaid">
+sequenceDiagram
+  participant M as 早上
+  participant D as 白天
+  participant E as 黃昏
+  participant N as 晚上
+  M->>M: 熱水澡或原地踏步 30 秒<br>先暖再動
+  M->>D: 分段走路：一次 10 分鐘<br>痛超過 3 分就回頭
+  D->>D: 坐 45 分鐘 → 起身 1 分鐘<br>上廁所、裝水都算
+  E->>E: 做第 3 章的分級動作<br>全程紅綠燈
+  N->>N: 睡前不用拉筋<br>記一下今天的分數
+      </div>
+    </figure>
+    <p class="aside">「暖了再動」是鐵律：早上起床肌肉是冷的、最脆，先熱水澡或踏步 30 秒，再做任何伸展。</p>
+  </div>
+
+  <div class="card check-card" data-check="mc" data-activity="m2-check">
+    <h3>✅ 檢查理解</h3>
+    <p class="check-note">不計分、可以重試。</p>
+    <div class="mc-q">
+      <p class="q-text">1. 走路走到第 15 分鐘，大腿後側的痛升到 4 分。正確做法是？</p>
+      <div class="opts">
+        <button class="opt" data-fb="❌ 4 分是黃燈——「撐完」就是把它推進紅燈區的經典路徑。再看看。">咬牙撐完預定的 30 分鐘</button>
+        <button class="opt" data-ok="true" data-fb="✅ 對。黃燈：今天走到這裡就收工，明天從這個長度附近再開始。">今天到此為止，明天再戰</button>
+        <button class="opt" data-fb="❌ 黃燈不是紅燈——4 分不需要就醫，只需要收工和觀察隔天。">立刻回診</button>
+      </div>
+    </div>
+    <div class="mc-q">
+      <p class="q-text">2. 昨天做完動作，今天早上起來「比平常更痛也更僵」。今天應該？</p>
+      <div class="opts">
+        <button class="opt" data-fb="❌ 完全不動會讓疤痕長得短而亂——隔天規則說的是「減半」，不是歸零。">完全休息，一週不動</button>
+        <button class="opt" data-fb="❌ 「把它拉開」是拉傷初期的大忌——急性刺痛的來源不是緊，是癒合中的裂口。">多拉幾下把它拉開</button>
+        <button class="opt" data-ok="true" data-fb="✅ 對。隔天更痛＝昨天太多：今天的份量全部減半，症狀退了再回原計畫。">昨天份量減半，觀察後天</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card short-card" data-check="short" data-activity="m2-short"
+       data-model="參考答案：三條規則——①溫和的壓力是藥：綠燈內的負重讓疤痕順向變強，完全不動反而更緊；②痛會騙人：不猜感覺，動作中打分數照燈走；③進步看隔天：第二天早上更痛就把昨天份量減半，更輕鬆才小加。"
+       data-selfcheck="我說得出三條規則各自的道理|我會用「打分數→看燈→隔天驗收」描述流程|我知道綠燈的痠拉感和紅燈的痛差在哪">
+    <h3>✍️ 換妳說說</h3>
+    <p class="check-note">2–4 句：把三條規則說給家人聽——他明天一定會問妳「今天可以走多久」。</p>
+  </div>
+
+  <div class="lab-mount" data-lab="lab1"></div>
+</section>
+<!-- ═══════════════ MODULE 3 ═══════════════ -->
+<section class="module" data-module="m3" id="m3">
+  <header class="module-head">
+    <div class="module-num">3</div>
+    <div class="module-title">
+      <h2>恢復計畫——分級動作庫</h2>
+      <p class="module-sub">六個動作、三個等級，每個都用真人姿勢圖畫給妳看。走路還會痛之前，先待在第 1 級。</p>
+    </div>
+    <div class="time-chip">≈6 分鐘閱讀 · 2 分鐘測驗 · 實驗室 8–10 分鐘</div>
+  </header>
+
+  <div class="screen">
+    <div class="card micro recall" data-check="mc1" data-activity="m3-recall">
+      <h4>🧠 還記得嗎？</h4>
+      <p class="q-text">動作庫的每個動作，進行中都要用什麼控制強度？</p>
+      <div class="opts">
+        <button class="opt" data-fb="❌ 次數是計畫，不是剎車——剎車是疼痛紅綠燈（0–3 繼續、4–5 減量、6 停）。">用固定次數</button>
+        <button class="opt" data-ok="true" data-fb="✅ 對——紅綠燈＋隔天規則，每個動作都一樣。">疼痛紅綠燈</button>
+        <button class="opt" data-fb="❌ 出汗不是這個階段的目標；這是修復期，不是健身房。">有沒有出汗</button>
+      </div>
+    </div>
+    <h3>三個等級：從床上一路走回日常</h3>
+    <p>現在走路還沒完全順，所以計畫<b>從第 1 級開始</b>。每一級的目標不一樣：先把腿後「活動開」，再叫它「出小力」，最後練「日常用的力氣」。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 3-1｜動作庫分層地圖：妳的路線圖</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="mermaid">
+graph TB
+  L1["🛏 第 1 級｜床上溫和<br>把關節活動開・叫醒血流<br>腳跟滑動・毛巾拉筋"]
+  L2["🧱 第 2 級｜負重激活<br>讓肌肉溫和出力<br>橋式・扶椅抬腿"]
+  L3["🚶 第 3 級｜功能肌力<br>練日常用的力氣<br>扶椅腿彎舉・坐站訓練"]
+  L1 -->|"連續 3 天綠燈<br>且隔天輕鬆"| L2
+  L2 -->|"再連續 3 天綠燈"| L3
+  L3 --> R["維持・回診評估<br>銜接物理治療"]
+      </div>
+    </figure>
+    <p class="aside">每個動作前：熱水澡或原地踏步 30 秒。鐵律——<b>冷的肌肉不伸展</b>。</p>
+  </div>
+
+  <div class="screen">
+    <h3>第 1 級（床上溫和）：腳跟滑動＋毛巾拉筋</h3>
+    <p>躺著做，腿不用撐體重，是最安全的第一步。目標不是練力氣，是讓膝蓋和髖關節的活動度回來、讓血流進到傷處。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 3-2｜動作一：腳跟滑動——讓膝蓋重新學會彎</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="body-svg" role="img" aria-label="側視圖示範腳跟滑動：開始時仰躺、雙腿伸直貼床；結束時一側腳跟沿床面滑向臀部、膝蓋朝上彎起，再慢慢滑回。箭頭表示腳跟沿床面滑動的方向">
+        <svg viewBox="0 0 900 350" font-family="inherit">
+          <defs>
+            <marker id="arr3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 Z" fill="#922B24"/>
+            </marker>
+            <g id="lieTorso">
+              <ellipse cx="96" cy="278" rx="22" ry="20"/>
+              <path d="M 114,266 L 136,266 L 140,294 L 112,294 Z"/>
+              <path d="M 136,262 C 176,254 222,254 256,262 C 264,268 266,282 262,292 C 224,300 178,300 140,296 C 132,290 132,272 136,262 Z"/>
+              <path d="M 146,264 C 172,262 200,264 224,268 L 224,278 C 200,276 172,276 146,276 Z"/>
+            </g>
+            <g id="lieLegStraight">
+              <path d="M 254,258 C 280,254 306,254 330,258 L 332,284 C 308,290 282,290 256,286 Z"/>
+              <path d="M 328,258 C 354,254 378,256 396,260 L 402,270 C 398,282 382,288 356,288 C 344,288 334,282 330,282 Z"/>
+              <path d="M 396,260 C 404,254 414,254 418,260 L 418,282 C 410,286 400,286 396,282 Z"/>
+            </g>
+          </defs>
+          <line x1="40" y1="306" x2="440" y2="306" stroke="#D6D6D6" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="470" y1="306" x2="870" y2="306" stroke="#D6D6D6" stroke-width="2.5" stroke-linecap="round"/>
+          <text x="46" y="40" font-size="18" font-weight="700" fill="#595959">開始</text>
+          <text x="476" y="40" font-size="18" font-weight="700" fill="#595959">結束</text>
+
+          <!-- start -->
+          <g stroke="#333" stroke-width="4.5" fill="none" stroke-linejoin="round"><use href="#lieTorso"/><use href="#lieLegStraight"/></g>
+          <g fill="#F6F2EC"><use href="#lieTorso"/><use href="#lieLegStraight"/></g>
+          <path d="M 86,258 C 92,248 108,246 116,252 C 120,260 116,270 106,272 Z" fill="#7A716A" stroke="#333" stroke-width="2.5"/>
+          <path d="M 262,296 C 300,298 352,298 390,294" stroke="#B23A32" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.45"/>
+          <text x="150" y="330" font-size="15" fill="#595959">仰躺・雙腿伸直・腳跟貼床</text>
+          <path d="M 330,262 C 332,272 332,282 330,294 M 780,262 C 782,272 782,282 780,294" stroke="#C9C0B4" stroke-width="2" fill="none"/>
+
+          <!-- end -->
+          <g stroke="#333" stroke-width="4.5" fill="none" stroke-linejoin="round"><use href="#lieTorso" x="450"/><use href="#lieLegStraight" x="450"/></g>
+          <g fill="#F6F2EC"><use href="#lieTorso" x="450"/><use href="#lieLegStraight" x="450"/></g>
+          <path d="M 536,258 C 542,248 558,246 566,252 C 570,260 566,270 556,272 Z" fill="#7A716A" stroke="#333" stroke-width="2.5"/>
+          <!-- bent working leg -->
+          <line x1="704" y1="268" x2="756" y2="216" stroke="#333" stroke-width="42" stroke-linecap="round"/>
+          <line x1="704" y1="268" x2="756" y2="216" stroke="#F6F2EC" stroke-width="34" stroke-linecap="round"/>
+          <line x1="756" y1="216" x2="794" y2="284" stroke="#333" stroke-width="36" stroke-linecap="round"/>
+          <line x1="756" y1="216" x2="794" y2="284" stroke="#F6F2EC" stroke-width="28" stroke-linecap="round"/>
+          <path d="M 790,286 C 782,290 772,290 766,286 C 766,278 774,272 784,274 L 794,280 Z" fill="#F6F2EC" stroke="#333" stroke-width="4" stroke-linejoin="round"/>
+          <line x1="708" y1="272" x2="752" y2="226" stroke="#B23A32" stroke-width="6" stroke-linecap="round" opacity="0.45"/>
+          <!-- arrows -->
+          <path d="M 700,320 C 672,324 646,320 624,312" fill="none" stroke="#922B24" stroke-width="2.6" stroke-dasharray="7 5" marker-end="url(#arr3)"/>
+          <text x="560" y="342" font-size="15" fill="#922B24">腳跟慢慢滑向臀部 → 停 1 秒 → 慢慢滑回</text>
+          <text x="512" y="250" font-size="15" fill="#595959">膝蓋朝上、不往外倒</text>
+          <text x="500" y="76" font-size="17" font-weight="700" fill="#922B24">8–10 下 × 2–3 組 · 全程 ≤3 分</text>
+        </svg>
+      </div>
+    </figure>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 3-3｜動作二：仰躺毛巾拉筋——給疤痕「溫柔的長度」</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="body-svg" role="img" aria-label="側視圖示範仰躺毛巾拉筋：開始時仰躺雙腿伸直；結束時一條腿用毛巾繞住腳掌、保持膝蓋打直慢慢抬起約六十度，另一條腿貼床，雙手拉住毛巾兩端，感覺大腿後側 2 到 3 分的拉扯即可">
+        <svg viewBox="0 0 900 360" font-family="inherit">
+          <line x1="40" y1="316" x2="440" y2="316" stroke="#D6D6D6" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="470" y1="316" x2="870" y2="316" stroke="#D6D6D6" stroke-width="2.5" stroke-linecap="round"/>
+          <text x="46" y="40" font-size="18" font-weight="700" fill="#595959">開始</text>
+          <text x="476" y="40" font-size="18" font-weight="700" fill="#595959">結束</text>
+
+          <!-- start -->
+          <g stroke="#333" stroke-width="4.5" fill="none" stroke-linejoin="round"><use href="#lieTorso"/><use href="#lieLegStraight"/></g>
+          <g fill="#F6F2EC"><use href="#lieTorso"/><use href="#lieLegStraight"/></g>
+          <path d="M 86,258 C 92,248 108,246 116,252 C 120,260 116,270 106,272 Z" fill="#7A716A" stroke="#333" stroke-width="2.5"/>
+          <path d="M 286,332 C 316,326 350,328 378,322" fill="none" stroke="#C8BFAF" stroke-width="9" stroke-linecap="round"/>
+          <text x="140" y="342" font-size="15" fill="#595959">毛巾（或圍巾）繞住腳掌中段</text>
+
+          <!-- end -->
+          <g stroke="#333" stroke-width="4.5" fill="none" stroke-linejoin="round"><use href="#lieTorso" x="450"/><use href="#lieLegStraight" x="450"/></g>
+          <g fill="#F6F2EC"><use href="#lieTorso" x="450"/><use href="#lieLegStraight" x="450"/></g>
+          <path d="M 536,258 C 542,248 558,246 566,252 C 570,260 566,270 556,272 Z" fill="#7A716A" stroke="#333" stroke-width="2.5"/>
+          <!-- raised leg -->
+          <line x1="706" y1="266" x2="694" y2="204" stroke="#333" stroke-width="38" stroke-linecap="round"/>
+          <line x1="706" y1="266" x2="694" y2="204" stroke="#F6F2EC" stroke-width="30" stroke-linecap="round"/>
+          <line x1="694" y1="204" x2="702" y2="142" stroke="#333" stroke-width="32" stroke-linecap="round"/>
+          <line x1="694" y1="204" x2="702" y2="142" stroke="#F6F2EC" stroke-width="24" stroke-linecap="round"/>
+          <path d="M 700,138 C 690,132 678,132 672,138 L 674,148 C 684,146 694,146 702,152 Z" fill="#F6F2EC" stroke="#333" stroke-width="4" stroke-linejoin="round"/>
+          <line x1="702" y1="262" x2="696" y2="208" stroke="#B23A32" stroke-width="6" stroke-linecap="round" opacity="0.45"/>
+          <!-- arm reaching + towel -->
+          <line x1="620" y1="268" x2="666" y2="198" stroke="#333" stroke-width="24" stroke-linecap="round"/>
+          <line x1="620" y1="268" x2="666" y2="198" stroke="#F6F2EC" stroke-width="16" stroke-linecap="round"/>
+          <path d="M 694,144 L 674,198" stroke="#C8BFAF" stroke-width="9" stroke-linecap="round"/>
+          <path d="M 694,144 L 674,198" stroke="#9C8F7C" stroke-width="1.4" fill="none"/>
+          <!-- arc arrow -->
+          <path d="M 760,300 C 776,246 748,186 716,158" fill="none" stroke="#922B24" stroke-width="2.6" stroke-dasharray="7 5" marker-end="url(#arr3)"/>
+          <text x="760" y="336" font-size="15" fill="#595959">另一腿全程貼床</text>
+          <text x="480" y="86" font-size="16" fill="#922B24">膝蓋打直・腳尖回勾</text>
+          <text x="480" y="112" font-size="16" fill="#922B24">拉到 2–3 分停住</text>
+          <text x="480" y="312" font-size="15" fill="#595959">停在 20–30 秒 × 3 次，組間休息 30 秒</text>
+        </svg>
+      </div>
+    </figure>
+    <div class="card micro" data-check="mc1" data-activity="m3-l1">
+      <h4>🧠 第 1 級的小測驗</h4>
+      <p class="q-text">毛巾拉筋拉到什麼程度就停？</p>
+      <div class="opts">
+        <button class="opt" data-fb="❌ 拉到痛「才有效」是年輕運動員的練法——修復中的疤痕要的是 2–3 分的溫柔長度。">拉到會痛才有練到</button>
+        <button class="opt" data-ok="true" data-fb="✅ 對。2–3 分的拉扯感、停 20–30 秒——綠燈內的長度才是疤痕需要的。">拉到 2–3 分的拉感就停住</button>
+        <button class="opt" data-fb="❌ 一點感覺都沒有＝長度沒到位，等於沒給疤痕訊號。抓 2–3 分。">完全沒感覺最安全</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="screen">
+    <h3>第 2 級（負重激活）：橋式＋扶椅抬腿</h3>
+    <p>關節順了之後，開始叫肌肉「溫和出力」。這兩個動作同時練膕旁肌和<span class="term" data-term="臀大肌">臀大肌</span>——臀肌有力，走路時腿後就不用一個人扛全部。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 3-4｜動作三：橋式——臀肌和腿後一起開機</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="body-svg" role="img" aria-label="側視圖示範橋式：開始時仰躺屈膝、雙腳踩床與臀部同寬；結束時臀部夾緊向上抬起，直到肩膀、髖、膝蓋成一直線，停兩秒再慢慢放下。箭頭表示臀部上抬方向">
+        <svg viewBox="0 0 900 360" font-family="inherit">
+          <line x1="40" y1="316" x2="440" y2="316" stroke="#D6D6D6" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="470" y1="316" x2="870" y2="316" stroke="#D6D6D6" stroke-width="2.5" stroke-linecap="round"/>
+          <text x="46" y="40" font-size="18" font-weight="700" fill="#595959">開始</text>
+          <text x="476" y="40" font-size="18" font-weight="700" fill="#595959">結束</text>
+
+          <!-- start -->
+          <g stroke="#333" stroke-width="4.5" fill="none" stroke-linejoin="round"><use href="#lieTorso"/></g>
+          <g fill="#F6F2EC"><use href="#lieTorso"/></g>
+          <path d="M 86,258 C 92,248 108,246 116,252 C 120,260 116,270 106,272 Z" fill="#7A716A" stroke="#333" stroke-width="2.5"/>
+          <!-- bent legs, feet flat -->
+          <line x1="256" y1="282" x2="318" y2="226" stroke="#333" stroke-width="44" stroke-linecap="round"/>
+          <line x1="256" y1="282" x2="318" y2="226" stroke="#F6F2EC" stroke-width="36" stroke-linecap="round"/>
+          <line x1="318" y1="226" x2="346" y2="284" stroke="#333" stroke-width="36" stroke-linecap="round"/>
+          <line x1="318" y1="226" x2="346" y2="284" stroke="#F6F2EC" stroke-width="28" stroke-linecap="round"/>
+          <path d="M 332,286 C 340,280 356,280 364,286 L 364,298 L 332,298 Z" fill="#F6F2EC" stroke="#333" stroke-width="4" stroke-linejoin="round"/>
+          <line x1="262" y1="296" x2="314" y2="238" stroke="#B23A32" stroke-width="6" stroke-linecap="round" opacity="0.45"/>
+          <text x="120" y="336" font-size="15" fill="#595959">仰躺屈膝・腳掌踩穩・與臀同寬</text>
+
+          <!-- end -->
+          <ellipse cx="572" cy="290" rx="20" ry="18" fill="#F6F2EC" stroke="#333" stroke-width="4.5"/>
+          <line x1="592" y1="290" x2="688" y2="264" stroke="#333" stroke-width="50" stroke-linecap="round"/>
+          <line x1="592" y1="290" x2="688" y2="264" stroke="#F6F2EC" stroke-width="42" stroke-linecap="round"/>
+          <line x1="688" y1="264" x2="754" y2="240" stroke="#333" stroke-width="42" stroke-linecap="round"/>
+          <line x1="688" y1="264" x2="754" y2="240" stroke="#F6F2EC" stroke-width="34" stroke-linecap="round"/>
+          <line x1="754" y1="240" x2="784" y2="286" stroke="#333" stroke-width="36" stroke-linecap="round"/>
+          <line x1="754" y1="240" x2="784" y2="286" stroke="#F6F2EC" stroke-width="28" stroke-linecap="round"/>
+          <path d="M 770,288 C 778,282 794,282 802,288 L 802,300 L 770,300 Z" fill="#F6F2EC" stroke="#333" stroke-width="4" stroke-linejoin="round"/>
+          <line x1="606" y1="296" x2="688" y2="302" stroke="#333" stroke-width="22" stroke-linecap="round"/>
+          <line x1="606" y1="296" x2="688" y2="302" stroke="#F6F2EC" stroke-width="14" stroke-linecap="round"/>
+          <line x1="692" y1="278" x2="750" y2="252" stroke="#B23A32" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+          <line x1="594" y1="284" x2="756" y2="238" stroke="#922B24" stroke-width="1.6" stroke-dasharray="5 5"/>
+          <text x="596" y="198" font-size="15" fill="#922B24">肩–髖–膝一條線</text>
+          <path d="M 700,250 C 700,232 698,216 694,204" fill="none" stroke="#922B24" stroke-width="2.6" stroke-dasharray="7 5" marker-end="url(#arr3)"/>
+          <text x="490" y="338" font-size="15" fill="#595959">夾臀部抬起・頂停 2 秒・慢慢放下</text>
+          <text x="640" y="76" font-size="17" font-weight="700" fill="#922B24">8–12 下 × 2–3 組</text>
+        </svg>
+      </div>
+    </figure>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 3-5｜動作四：扶椅抬腿——站著喚醒髖關節</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="body-svg" role="img" aria-label="側視圖示範扶椅抬腿：開始時站直、雙手扶椅背；結束時一側膝蓋彎曲抬到約四十五度、大腿與地面約平行的高度，身體保持打直不前傾，再慢慢放回換腳。箭頭表示抬腿方向">
+        <svg viewBox="0 0 900 420" font-family="inherit">
+          <line x1="40" y1="386" x2="440" y2="386" stroke="#D6D6D6" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="470" y1="386" x2="870" y2="386" stroke="#D6D6D6" stroke-width="2.5" stroke-linecap="round"/>
+          <text x="46" y="36" font-size="18" font-weight="700" fill="#595959">開始</text>
+          <text x="476" y="36" font-size="18" font-weight="700" fill="#595959">結束</text>
+
+          <!-- chair -->
+          <g stroke="#333" stroke-width="3.5" fill="#EAE4DB" stroke-linejoin="round">
+            <rect x="88" y="150" width="10" height="232" rx="4"/>
+            <rect x="86" y="300" width="88" height="10" rx="4"/>
+            <rect x="96" y="310" width="8" height="72" rx="3"/>
+            <rect x="160" y="310" width="8" height="72" rx="3"/>
+          </g>
+
+          <!-- start: standing, hand on chair -->
+          <g id="standStart3">
+            <ellipse cx="214" cy="104" rx="19" ry="22"/>
+            <path d="M 206,122 L 224,122 L 228,142 L 202,142 Z"/>
+            <path d="M 204,140 C 196,168 194,200 196,226 C 198,244 200,254 202,262 L 244,262 C 246,252 248,240 250,226 C 252,200 250,168 244,140 C 234,132 214,132 204,140 Z"/>
+            <path d="M 208,150 C 182,162 142,178 106,186 L 104,198 C 144,190 184,174 212,162 Z"/>
+            <path d="M 208,258 C 204,292 204,322 208,344 C 206,360 208,372 212,380 L 232,380 C 236,370 236,356 234,344 C 238,322 238,292 234,258 Z"/>
+            <path d="M 210,378 C 200,382 192,386 190,392 L 214,394 L 234,392 L 234,380 Z"/>
+          </g>
+          <g stroke="#333" stroke-width="4.5" fill="none" stroke-linejoin="round"><use href="#standStart3"/></g>
+          <g fill="#F6F2EC"><use href="#standStart3"/></g>
+          <path d="M 206,236 C 204,252 202,266 200,276 L 244,276 C 246,264 246,248 244,236 Z" fill="#DED7CC" stroke="#333" stroke-width="3.5"/>
+          <path d="M 202,144 C 198,170 196,198 198,222 L 200,246 L 244,246 L 246,222 C 248,198 246,170 242,144 C 234,136 212,136 202,144 Z" fill="#E9E3DA" stroke="#333" stroke-width="3.5"/>
+          <path d="M 212,82 C 228,82 233,94 233,104 C 233,116 228,124 216,126 C 222,116 223,106 221,96 C 220,90 217,85 212,82 Z" fill="#7A716A" stroke="#333" stroke-width="2.5"/>
+          <text x="238" y="410" font-size="15" fill="#595959">站直・雙手輕扶椅背</text>
+
+          <!-- end: knee lifted -->
+          <g stroke="#333" stroke-width="3.5" fill="#EAE4DB" stroke-linejoin="round">
+            <rect x="538" y="150" width="10" height="232" rx="4"/>
+            <rect x="536" y="300" width="88" height="10" rx="4"/>
+            <rect x="546" y="310" width="8" height="72" rx="3"/>
+            <rect x="610" y="310" width="8" height="72" rx="3"/>
+          </g>
+          <g stroke="#333" stroke-width="4.5" fill="none" stroke-linejoin="round">
+            <ellipse cx="678" cy="104" rx="19" ry="22"/>
+            <path d="M 670,122 L 688,122 L 692,142 L 666,142 Z"/>
+            <path d="M 668,140 C 660,168 658,200 660,226 C 662,244 664,254 666,262 L 708,262 C 710,252 712,240 714,226 C 716,200 714,168 708,140 C 698,132 678,132 668,140 Z"/>
+            <path d="M 660,150 C 640,162 592,178 554,186 L 554,198 C 594,190 642,174 664,162 Z"/>
+          </g>
+          <g fill="#F6F2EC">
+            <ellipse cx="678" cy="104" rx="19" ry="22"/>
+            <path d="M 670,122 L 688,122 L 692,142 L 666,142 Z"/>
+            <path d="M 668,140 C 660,168 658,200 660,226 C 662,244 664,254 666,262 L 708,262 C 710,252 712,240 714,226 C 716,200 714,168 708,140 C 698,132 678,132 668,140 Z"/>
+            <path d="M 660,150 C 640,162 592,178 554,186 L 554,198 C 594,190 642,174 664,162 Z"/>
+          </g>
+          <path d="M 670,236 C 668,252 666,266 664,276 L 708,276 C 710,264 710,248 708,236 Z" fill="#DED7CC" stroke="#333" stroke-width="3.5"/>
+          <path d="M 666,144 C 662,170 660,198 662,222 L 664,246 L 708,246 L 710,222 C 712,198 710,170 706,144 C 698,136 676,136 666,144 Z" fill="#E9E3DA" stroke="#333" stroke-width="3.5"/>
+          <path d="M 676,82 C 692,82 697,94 697,104 C 697,116 692,124 680,126 C 686,116 687,106 685,96 C 684,90 681,85 676,82 Z" fill="#7A716A" stroke="#333" stroke-width="2.5"/>
+          <!-- support leg -->
+          <path d="M 672,258 C 668,292 668,322 672,344 C 670,360 672,372 676,380 L 696,380 C 700,370 700,356 698,344 C 702,322 702,292 698,258 Z" fill="#F6F2EC" stroke="#333" stroke-width="4.5" stroke-linejoin="round"/>
+          <path d="M 674,378 C 664,382 656,386 654,392 L 678,394 L 698,392 L 698,380 Z" fill="#F6F2EC" stroke="#333" stroke-width="4" stroke-linejoin="round"/>
+          <!-- lifted leg: thigh forward ~45°, shin down -->
+          <path d="M 672,258 C 656,246 638,236 620,228 L 612,242 C 630,252 648,262 664,274 Z" fill="#F6F2EC" stroke="#333" stroke-width="4.5" stroke-linejoin="round"/>
+          <path d="M 620,226 C 618,244 618,260 620,272 L 636,272 C 636,258 636,244 634,226 Z" fill="#F6F2EC" stroke="#333" stroke-width="4.5" stroke-linejoin="round"/>
+          <path d="M 616,272 C 610,274 604,278 602,282 L 620,286 L 634,282 L 632,272 Z" fill="#F6F2EC" stroke="#333" stroke-width="4" stroke-linejoin="round"/>
+          <path d="M 668,266 C 650,254 634,244 618,236" stroke="#B23A32" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.45"/>
+          <path d="M 596,216 C 588,236 588,254 594,268" fill="none" stroke="#922B24" stroke-width="2.6" stroke-dasharray="7 5" marker-end="url(#arr3)"/>
+          <text x="760" y="130" font-size="15" fill="#922B24">抬到約 45°</text>
+          <text x="760" y="154" font-size="15" fill="#922B24">不用求高</text>
+          <text x="500" y="410" font-size="15" fill="#595959">一腳 10 下 × 2 組・身體打直、不前傾不憋氣</text>
+        </svg>
+      </div>
+    </figure>
+    <div class="card micro" data-check="mc1" data-activity="m3-l2">
+      <h4>🧠 第 2 級的小測驗</h4>
+      <p class="q-text">橋式抬到最高時，身體應該是什麼形狀？</p>
+      <div class="opts">
+        <button class="opt" data-fb="❌ 拱越高不代表越好——腰過度拱起會把壓力轉到下背。到「一直線」就停。">拱得越高越好</button>
+        <button class="opt" data-ok="true" data-fb="✅ 對。肩–髖–膝一條線就停 2 秒——線就是終點，不是過頭。">肩髖膝一條直線</button>
+        <button class="opt" data-fb="❌ 抬一半效果差很多：臀肌還沒收完就放下，等於沒開機。">隨便抬一點有動就好</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="screen">
+    <h3>第 3 級（功能肌力）：扶椅腿彎舉＋坐站訓練</h3>
+    <p>這一級開始練「生活裡真的會用到的動作」——蹲起、上樓梯、跨步。能做到這一級而且穩定綠燈，妳就已經把能在家裡做的恢復走完了大半。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 3-6｜動作五：扶椅腿彎舉——直接練膕旁肌的收縮</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="body-svg" role="img" aria-label="側視圖示範扶椅腿彎舉：開始時站直雙手扶椅背；結束時一側膝蓋彎曲、腳跟往臀部方向勾起，大腿保持垂直不前傾，再慢慢放回。箭頭表示腳跟勾起的方向">
+        <svg viewBox="0 0 900 420" font-family="inherit">
+          <line x1="40" y1="386" x2="440" y2="386" stroke="#D6D6D6" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="470" y1="386" x2="870" y2="386" stroke="#D6D6D6" stroke-width="2.5" stroke-linecap="round"/>
+          <text x="46" y="36" font-size="18" font-weight="700" fill="#595959">開始</text>
+          <text x="476" y="36" font-size="18" font-weight="700" fill="#595959">結束</text>
+
+          <!-- chair -->
+          <g stroke="#333" stroke-width="3.5" fill="#EAE4DB" stroke-linejoin="round">
+            <rect x="88" y="150" width="10" height="232" rx="4"/>
+            <rect x="86" y="300" width="88" height="10" rx="4"/>
+            <rect x="96" y="310" width="8" height="72" rx="3"/>
+            <rect x="160" y="310" width="8" height="72" rx="3"/>
+          </g>
+
+          <!-- start (reuse standing shape) -->
+          <g stroke="#333" stroke-width="4.5" fill="none" stroke-linejoin="round"><use href="#standStart3"/></g>
+          <g fill="#F6F2EC"><use href="#standStart3"/></g>
+          <path d="M 206,236 C 204,252 202,266 200,276 L 244,276 C 246,264 246,248 244,236 Z" fill="#DED7CC" stroke="#333" stroke-width="3.5"/>
+          <path d="M 202,144 C 198,170 196,198 198,222 L 200,246 L 244,246 L 246,222 C 248,198 246,170 242,144 C 234,136 212,136 202,144 Z" fill="#E9E3DA" stroke="#333" stroke-width="3.5"/>
+          <path d="M 212,82 C 228,82 233,94 233,104 C 233,116 228,124 216,126 C 222,116 223,106 221,96 C 220,90 217,85 212,82 Z" fill="#7A716A" stroke="#333" stroke-width="2.5"/>
+          <text x="238" y="410" font-size="15" fill="#595959">站直・雙手輕扶椅背</text>
+
+          <!-- end chair -->
+          <g stroke="#333" stroke-width="3.5" fill="#EAE4DB" stroke-linejoin="round">
+            <rect x="538" y="150" width="10" height="232" rx="4"/>
+            <rect x="536" y="300" width="88" height="10" rx="4"/>
+            <rect x="546" y="310" width="8" height="72" rx="3"/>
+            <rect x="610" y="310" width="8" height="72" rx="3"/>
+          </g>
+
+          <!-- end: heel curled up -->
+          <g stroke="#333" stroke-width="4.5" fill="none" stroke-linejoin="round">
+            <ellipse cx="678" cy="104" rx="19" ry="22"/>
+            <path d="M 670,122 L 688,122 L 692,142 L 666,142 Z"/>
+            <path d="M 668,140 C 660,168 658,200 660,226 C 662,244 664,254 666,262 L 708,262 C 710,252 712,240 714,226 C 716,200 714,168 708,140 C 698,132 678,132 668,140 Z"/>
+            <path d="M 660,150 C 640,162 592,178 554,186 L 554,198 C 594,190 642,174 664,162 Z"/>
+          </g>
+          <g fill="#F6F2EC">
+            <ellipse cx="678" cy="104" rx="19" ry="22"/>
+            <path d="M 670,122 L 688,122 L 692,142 L 666,142 Z"/>
+            <path d="M 668,140 C 660,168 658,200 660,226 C 662,244 664,254 666,262 L 708,262 C 710,252 712,240 714,226 C 716,200 714,168 708,140 C 698,132 678,132 668,140 Z"/>
+            <path d="M 660,150 C 640,162 592,178 554,186 L 554,198 C 594,190 642,174 664,162 Z"/>
+          </g>
+          <path d="M 670,236 C 668,252 666,266 664,276 L 708,276 C 710,264 710,248 708,236 Z" fill="#DED7CC" stroke="#333" stroke-width="3.5"/>
+          <path d="M 666,144 C 662,170 660,198 662,222 L 664,246 L 708,246 L 710,222 C 712,198 710,170 706,144 C 698,136 676,136 666,144 Z" fill="#E9E3DA" stroke="#333" stroke-width="3.5"/>
+          <path d="M 676,82 C 692,82 697,94 697,104 C 697,116 692,124 680,126 C 686,116 687,106 685,96 C 684,90 681,85 676,82 Z" fill="#7A716A" stroke="#333" stroke-width="2.5"/>
+          <!-- support leg -->
+          <path d="M 672,258 C 668,292 668,322 672,344 C 670,360 672,372 676,380 L 696,380 C 700,370 700,356 698,344 C 702,322 702,292 698,258 Z" fill="#F6F2EC" stroke="#333" stroke-width="4.5" stroke-linejoin="round"/>
+          <path d="M 674,378 C 664,382 656,386 654,392 L 678,394 L 698,392 L 698,380 Z" fill="#F6F2EC" stroke="#333" stroke-width="4" stroke-linejoin="round"/>
+          <!-- working leg: thigh vertical, heel to buttock -->
+          <path d="M 664,258 C 660,288 660,318 662,344 L 680,344 C 682,318 682,288 678,258 Z" fill="#F6F2EC" stroke="#333" stroke-width="4.5" stroke-linejoin="round"/>
+          <path d="M 662,342 C 676,332 694,316 706,298 L 718,306 C 706,326 688,344 670,354 Z" fill="#F6F2EC" stroke="#333" stroke-width="4.5" stroke-linejoin="round"/>
+          <ellipse cx="714" cy="300" rx="9" ry="7" fill="#F6F2EC" stroke="#333" stroke-width="3.5"/>
+          <path d="M 670,266 C 668,294 668,320 670,338" stroke="#B23A32" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.45"/>
+          <path d="M 744,334 C 752,318 752,302 746,290" fill="none" stroke="#922B24" stroke-width="2.6" stroke-dasharray="7 5" marker-end="url(#arr3)"/>
+          <text x="500" y="410" font-size="15" fill="#595959">一腳 8–10 下 × 2 組・腳跟勾向臀部，慢慢放回</text>
+          <text x="756" y="256" font-size="15" fill="#922B24">大腿保持垂直</text>
+          <text x="756" y="280" font-size="15" fill="#922B24">膝蓋不往前頂</text>
+        </svg>
+      </div>
+    </figure>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 3-7｜動作六：坐站訓練——為上樓梯和起床存力氣</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="body-svg" role="img" aria-label="側視圖示範坐站訓練：開始時坐在穩固的椅子上、雙腳平放；結束時不用手撐、靠大腿力量站起，身體微微前傾但背打直。箭頭表示起身方向">
+        <svg viewBox="0 0 900 420" font-family="inherit">
+          <defs>
+            <marker id="arr37" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 Z" fill="#922B24"/>
+            </marker>
+          </defs>
+          <line x1="40" y1="400" x2="440" y2="400" stroke="#D6D6D6" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="470" y1="400" x2="870" y2="400" stroke="#D6D6D6" stroke-width="2.5" stroke-linecap="round"/>
+          <text x="46" y="36" font-size="18" font-weight="700" fill="#595959">開始（坐穩）</text>
+          <text x="476" y="36" font-size="18" font-weight="700" fill="#595959">結束（站起）</text>
+
+          <!-- ══ panel 1: seated ══ -->
+          <g stroke="#333" stroke-width="3.5" fill="#EAE4DB" stroke-linejoin="round">
+            <rect x="296" y="150" width="10" height="150" rx="4"/>
+            <rect x="212" y="300" width="88" height="10" rx="4"/>
+            <rect x="224" y="310" width="8" height="86" rx="3"/>
+            <rect x="288" y="310" width="8" height="86" rx="3"/>
+          </g>
+          <!-- torso capsule -->
+          <line x1="252" y1="292" x2="246" y2="168" stroke="#333" stroke-width="52" stroke-linecap="round"/>
+          <line x1="252" y1="292" x2="246" y2="168" stroke="#F6F2EC" stroke-width="44" stroke-linecap="round"/>
+          <!-- tank -->
+          <line x1="250" y1="282" x2="247" y2="188" stroke="#333" stroke-width="44" stroke-linecap="round"/>
+          <line x1="250" y1="282" x2="247" y2="188" stroke="#E9E3DA" stroke-width="37" stroke-linecap="round"/>
+          <!-- head + hair -->
+          <ellipse cx="250" cy="138" rx="19" ry="22" fill="#F6F2EC" stroke="#333" stroke-width="4"/>
+          <path d="M 248,116 C 264,116 269,128 269,138 C 269,150 264,156 252,158 C 258,148 259,138 257,128 C 256,122 253,119 248,116 Z" fill="#7A716A" stroke="#333" stroke-width="2.5"/>
+          <!-- thigh + shin + foot -->
+          <line x1="252" y1="296" x2="176" y2="302" stroke="#333" stroke-width="36" stroke-linecap="round"/>
+          <line x1="252" y1="296" x2="176" y2="302" stroke="#F6F2EC" stroke-width="28" stroke-linecap="round"/>
+          <line x1="176" y1="302" x2="172" y2="370" stroke="#333" stroke-width="32" stroke-linecap="round"/>
+          <line x1="176" y1="302" x2="172" y2="370" stroke="#F6F2EC" stroke-width="24" stroke-linecap="round"/>
+          <path d="M 156,370 C 148,374 138,380 136,386 L 162,390 L 186,388 L 186,372 Z" fill="#F6F2EC" stroke="#333" stroke-width="4" stroke-linejoin="round"/>
+          <!-- arm -->
+          <line x1="246" y1="176" x2="208" y2="284" stroke="#333" stroke-width="22" stroke-linecap="round"/>
+          <line x1="246" y1="176" x2="208" y2="284" stroke="#F6F2EC" stroke-width="14" stroke-linecap="round"/>
+          <!-- hamstring -->
+          <line x1="246" y1="314" x2="182" y2="318" stroke="#B23A32" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+          <text x="110" y="416" font-size="15" fill="#595959">坐在穩固的椅子上・雙腳平放</text>
+
+          <!-- ══ panel 2: rising ══ -->
+          <g stroke="#333" stroke-width="3.5" fill="#EAE4DB" stroke-linejoin="round">
+            <rect x="746" y="150" width="10" height="150" rx="4"/>
+            <rect x="662" y="300" width="88" height="10" rx="4"/>
+            <rect x="674" y="310" width="8" height="86" rx="3"/>
+            <rect x="738" y="310" width="8" height="86" rx="3"/>
+          </g>
+          <!-- torso capsule -->
+          <line x1="720" y1="300" x2="684" y2="196" stroke="#333" stroke-width="52" stroke-linecap="round"/>
+          <line x1="720" y1="300" x2="684" y2="196" stroke="#F6F2EC" stroke-width="44" stroke-linecap="round"/>
+          <!-- tank -->
+          <line x1="716" y1="290" x2="687" y2="208" stroke="#333" stroke-width="44" stroke-linecap="round"/>
+          <line x1="716" y1="290" x2="687" y2="208" stroke="#E9E3DA" stroke-width="37" stroke-linecap="round"/>
+          <!-- head -->
+          <ellipse cx="676" cy="166" rx="19" ry="22" fill="#F6F2EC" stroke="#333" stroke-width="4"/>
+          <path d="M 674,144 C 690,144 695,156 695,166 C 695,178 690,184 678,186 C 684,176 685,166 683,156 C 682,150 679,147 674,144 Z" fill="#7A716A" stroke="#333" stroke-width="2.5"/>
+          <!-- thigh, shin, foot -->
+          <line x1="720" y1="300" x2="648" y2="334" stroke="#333" stroke-width="38" stroke-linecap="round"/>
+          <line x1="720" y1="300" x2="648" y2="334" stroke="#F6F2EC" stroke-width="30" stroke-linecap="round"/>
+          <line x1="648" y1="334" x2="616" y2="388" stroke="#333" stroke-width="32" stroke-linecap="round"/>
+          <line x1="648" y1="334" x2="616" y2="388" stroke="#F6F2EC" stroke-width="24" stroke-linecap="round"/>
+          <path d="M 598,386 C 590,390 580,394 578,398 L 604,402 L 628,400 L 628,388 Z" fill="#F6F2EC" stroke="#333" stroke-width="4" stroke-linejoin="round"/>
+          <!-- arm -->
+          <line x1="688" y1="206" x2="626" y2="250" stroke="#333" stroke-width="22" stroke-linecap="round"/>
+          <line x1="688" y1="206" x2="626" y2="250" stroke="#F6F2EC" stroke-width="14" stroke-linecap="round"/>
+          <!-- hamstring -->
+          <line x1="712" y1="318" x2="648" y2="346" stroke="#B23A32" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+          <!-- arrow -->
+          <path d="M 742,282 C 736,266 728,252 718,240" fill="none" stroke="#922B24" stroke-width="2.6" stroke-dasharray="7 5" marker-end="url(#arr37)"/>
+          <text x="790" y="250" font-size="15" fill="#922B24">用大腿站起來</text>
+          <text x="790" y="274" font-size="15" fill="#922B24">坐下時「慢慢」</text>
+          <text x="790" y="298" font-size="15" fill="#922B24">比站起來更重要</text>
+          <text x="500" y="416" font-size="15" fill="#595959">8–12 下 × 2 組・不用手撐膝蓋</text>
+        </svg>
+      </div>
+    </figure>
+    <div class="card micro" data-check="reveal" data-activity="m3-l3">
+      <h4>🔮 坐站訓練的小細節</h4>
+      <p>為什麼「慢慢坐下」比「站起來」更重要？點開看。</p>
+      <div class="reveal-group">
+        <button class="reveal-card"><span class="front">慢慢坐下＝<br>離心收縮</span><span class="back"><b>膕旁肌邊拉長邊出力</b><br>這正是它受傷時的動作模式——練會它，彎腰、下樓梯才安全</span></button>
+        <button class="reveal-card"><span class="front">一屁股坐下＝<br>失去控制</span><span class="back"><b>重力代替了肌肉</b><br>傷後的腿接不住，也學不到東西</span></button>
+      </div>
+      <p class="micro-done" hidden>🎯 離心訓練是膕旁肌復健的核心——慢慢放下，才是練重點。</p>
+    </div>
+  </div>
+
+  <div class="screen">
+    <h3>什麼時候升級、什麼時候留級？</h3>
+    <p>不憑感覺，憑兩個證據：<b>今天動作中的燈</b>＋<b>明天早上的狀態</b>。下圖就是全部規則——截圖放在手機裡也行。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 3-8｜升級／留級決策：兩個證據，三種結果</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="mermaid">
+flowchart TD
+  A["這一級做了 3 天"] --> B{"這 3 天<br>都綠燈？"}
+  B -- "是" --> C{"隔天早上<br>都沒更痛？"}
+  C -- "是" --> U["✅ 升一級<br>（只升一級，不跳）"]
+  C -- "否" --> S["⏸ 留在原級<br>份量減半兩天再試"]
+  B -- "偶爾黃燈" --> S
+  B -- "紅燈或反覆黃燈" --> D["⬇ 退回上一級<br>一週內紅燈兩次 → 第 4 章紅線"]
+      </div>
+    </figure>
+    <p class="aside">升級的樣子：同樣次數做起來更輕鬆、隔天沒事。如果升級後又出現黃燈——不是失敗，退半級就好，疤痕需要的時間因人而異。</p>
+  </div>
+
+  <div class="screen">
+    <h3>走路也要有計畫</h3>
+    <p>走路是妳最重要的日常藥——但它是「處方藥」：一次 10 分鐘、平地、好走的鞋，一天 2–3 次，比一次走 40 分鐘好得多。出發前 30 秒原地踏步，走到紅綠燈亮黃就回頭。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 3-9｜兩週步行進度表（從第 1 天算）</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="mermaid">
+gantt
+  title 兩週步行計畫（全部平地・紅綠燈控管）
+  dateFormat YYYY-MM-DD
+  axisFormat 第 %d 天
+  section 第 1 週
+  每天 10 分鐘 × 2 次 :active, w1, 2026-01-01, 6d
+  週日評估・準備升級 :w1e, after w1, 1d
+  section 第 2 週
+  每天 12–15 分鐘 × 2 次 :w2, after w1e, 6d
+  週日評估・接 Lab 2 計畫 :w2e, after w2, 1d
+      </div>
+    </figure>
+    <div class="card micro" data-check="reveal" data-activity="m3-walk">
+      <h4>🔮 今天走到一半，痛到了 3 分——要繼續嗎？</h4>
+      <div class="reveal-group">
+        <button class="reveal-card"><span class="front">3 分＝綠燈</span><span class="back"><b>可以繼續</b><br>但「今天」就到預定時間為止，不加碼</span></button>
+        <button class="reveal-card"><span class="front">如果升到 4 分</span><span class="back"><b>回頭收工</b><br>今天到此為止，明天同一個長度再試</span></button>
+      </div>
+      <p class="micro-done" hidden>🎯 綠燈能走、黃燈回頭——就這麼簡單。</p>
+    </div>
+  </div>
+
+  <div class="card check-card" data-check="mc" data-activity="m3-check">
+    <h3>✅ 檢查理解</h3>
+    <p class="check-note">不計分、可以重試。</p>
+    <div class="mc-q">
+      <p class="q-text">1. 第 1 級做了 3 天都綠燈、隔天也輕鬆。接下來？</p>
+      <div class="opts">
+        <button class="opt" data-fb="❌ 跳兩級等於把第 4–6 週的嫩疤痕直接丟進深水區——一級一級來。">直接跳到第 3 級，加速進度</button>
+        <button class="opt" data-ok="true" data-fb="✅ 對。只升一級到第 2 級（橋式＋扶椅抬腿），第 1 級可以留著當暖身。">升到第 2 級，第 1 級當暖身</button>
+        <button class="opt" data-fb="❌ 3 天綠燈＋隔天輕鬆就是升級證據——停在原地肌肉得不到新刺激。">永遠留在第 1 級最安全</button>
+      </div>
+    </div>
+    <div class="mc-q">
+      <p class="q-text">2. 橋式做到第 8 下，痛升到 5 分。這組怎麼辦？</p>
+      <div class="opts">
+        <button class="opt" data-fb="❌ 剩 4 下是「預設」，5 分是「黃燈」——黃燈贏，做完收工。">把剩下的 4 下做完</button>
+        <button class="opt" data-ok="true" data-fb="✅ 對。黃燈＝這組做完就收工（或次數減半），明天看隔天規則決定份量。">這組到此收工，明天再評估</button>
+        <button class="opt" data-fb="❌ 5 分是黃燈不是紅燈——收工觀察就好，不需要就醫。">立刻回診</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card short-card" data-check="short" data-activity="m3-short"
+       data-model="參考答案：我在第 1 級（腳跟滑動＋毛巾拉筋），因為走路還沒完全順。做 3 天都綠燈、隔天沒更痛，就升到第 2 級橋式和扶椅抬腿；再 3 天綠燈升第 3 級。任何時候動作中 4–5 分就減量收工、6 分以上停，隔天更痛就把前一天份量減半。走路一次 10 分鐘一天兩次，先不加長。"
+       data-selfcheck="我說得出自己現在在哪一級、做哪些動作|我說得出升級需要哪兩個證據|我知道黃燈和紅燈各自怎麼處理">
+    <h3>✍️ 換妳說說</h3>
+    <p class="check-note">2–4 句：妳現在會從哪一級開始、什麼證據讓妳升級、黃燈了怎麼辦？</p>
+  </div>
+
+  <div class="lab-mount" data-lab="lab2"></div>
+</section>
+<!-- ═══════════════ MODULE 4 ═══════════════ -->
+<section class="module" data-module="m4" id="m4">
+  <header class="module-head">
+    <div class="module-num">4</div>
+    <div class="module-title">
+      <h2>安全工具箱——紅線、習慣與下一步</h2>
+      <p class="module-sub">知道「什麼時候必須停下來」，是這門課教過最重要的東西。</p>
+    </div>
+    <div class="time-chip">≈5 分鐘閱讀 · 2 分鐘測驗</div>
+  </header>
+
+  <div class="screen">
+    <div class="card micro recall" data-check="mc1" data-activity="m4-recall">
+      <h4>🧠 還記得嗎？</h4>
+      <p class="q-text">「肌肉撕裂的恢復」靠什麼樣的活動？</p>
+      <div class="opts">
+        <button class="opt" data-fb="❌ 完全不動會讓疤痕長得短而亂、肌肉萎縮——溫和漸進才是路。">完全休息不動</button>
+        <button class="opt" data-ok="true" data-fb="✅ 對——紅綠燈內的溫和漸進負重，疤痕才會順向變強。">綠燈內溫和漸進</button>
+        <button class="opt" data-fb="❌ 高強度是再撕裂的快速通道，尤其是第 4–6 週的嫩疤痕。">高強度早日回到顛峰</button>
+      </div>
+    </div>
+    <h3>五條紅線：出現就先停下，回診</h3>
+    <p>這次的傷<b>沒有做過影像檢查</b>，所以更要會看紅線。以下任何一條出現，暫停運動計畫、先找醫師或物理治療師——不是因為一定出大事，是因為值得專業的眼睛看一下。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 4-1｜紅旗決策樹：照著走，不糾結</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="mermaid">
+flowchart TD
+  S["出現新症狀或疑慮"] --> A{"痛會不會「竄」過膝蓋<br>到小腿或腳＋麻？" }
+  A -- "會" --> N["🚩 可能不是膕旁肌<br>是神經問題（如坐骨神經）<br>→ 盡快就醫評估"]
+  A -- "不會" --> B{"完全無法踩地走路？<br>夜裡痛醒？" }
+  B -- "是" --> H["🚩 回診<br>（必要時安排影像）"]
+  B -- "否" --> C{"一週內紅燈兩次以上？<br>或溫和計畫 2 週完全沒進步？" }
+  C -- "是" --> D["🚩 回診重新評估分級"]
+  C -- "否" --> E["✅ 照計畫繼續<br>每兩週對照進步指標"]
+      </div>
+    </figure>
+    <p class="aside">另外兩條老紅線也記著：<b>受傷當時就無法走</b>、<b>大腿後側大片瘀青或摸到凹陷</b>——這種要提早回診。妳的情況是滿月還沒全好，本來就值得在下一次門診時問清楚分級。</p>
+  </div>
+
+  <div class="screen">
+    <h3>「會竄的麻痛」——怎麼跟腿後的痛分？</h3>
+    <p>膕旁肌的痛是<b>局部的</b>：就在大腿後面那一帶，按得到、彎腰拉它時更明顯。但如果痛<b>從臀部一路竄過膝蓋、到小腿外側或腳</b>，還帶麻、帶電、或腳沒力——那可能是<span class="term" data-term="坐骨神經">坐骨神經</span>在抗議，問題多半出在腰部，治療方向完全不同。下圖把兩種路徑畫在一起比給妳看。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 4-2｜兩種「腿後面痛」：肌肉局部的 vs 神經竄的</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="body-svg" role="img" aria-label="人體背後視圖左右對照：左圖是膕旁肌拉傷，痛點侷限在大腿後側中段，按壓會痛、彎腰拉扯時更明顯；右圖是坐骨神經痛，痛從腰部與臀部沿大腿後側穿過膝蓋，竄到小腿外側與腳背，伴隨麻電感，膝蓋以下的痛是警訊">
+        <svg viewBox="0 0 900 640" font-family="inherit">
+          <!-- ══ left: hamstring local ══ -->
+          <g>
+            <text x="80" y="42" font-size="18" font-weight="700" fill="#922B24">膕旁肌拉傷：局部的痛</text>
+            <!-- simplified back-view body -->
+            <circle cx="225" cy="106" r="22" fill="#F1EEEA" stroke="#3A3A3A" stroke-width="2.5"/>
+            <circle cx="225" cy="80" r="11" fill="#7A716A" stroke="#3A3A3A" stroke-width="2"/>
+            <path d="M 211 92 C 205 100, 203 112, 205 120 C 213 114, 237 114, 245 120 C 247 112, 245 100, 239 92 Z" fill="#F1EEEA" stroke="#3A3A3A" stroke-width="2"/>
+            <path d="M 176 138 C 166 180, 180 220, 190 246 C 178 258, 172 276, 174 296 L 276 296 C 278 276, 272 258, 260 246 C 270 220, 284 180, 274 138 C 254 126, 196 126, 176 138 Z" fill="#E9E4DE" stroke="#3A3A3A" stroke-width="2.5"/>
+            <path d="M 176 296 C 174 326, 180 348, 192 362 L 218 372 L 225 364 L 232 372 L 258 362 C 270 348, 276 326, 274 296 Z" fill="#E4DEDA" stroke="#3A3A3A" stroke-width="2.5"/>
+            <path d="M 190 366 C 186 402, 188 462, 194 500 L 226 500 C 228 462, 226 406, 222 372 Z" fill="#F1EEEA" stroke="#3A3A3A" stroke-width="2.5"/>
+            <path d="M 228 372 C 226 406, 226 462, 228 500 L 260 500 C 264 462, 264 402, 260 366 Z" fill="#F1EEEA" stroke="#3A3A3A" stroke-width="2.5"/>
+            <!-- local pain zone -->
+            <ellipse cx="208" cy="430" rx="26" ry="42" fill="#B23A32" fill-opacity="0.55" stroke="#8F2B24" stroke-width="2" stroke-dasharray="6 4"/>
+            <path d="M 200 386 l 8 -4 l -2 8 l 9 3 l -9 4 l 2 9 l -8 -5 l -4 8 l -3 -9 l -9 1 l 6 -7 l -7 -6 l 9 -1 l -1 -9 Z" fill="#C73E1D" stroke="#8F2B24" stroke-width="1.5"/>
+            <!-- calves + feet -->
+            <path d="M 192 504 C 188 530, 190 560, 196 584 L 212 604 C 216 592, 220 560, 224 504 Z" fill="#F1EEEA" stroke="#3A3A3A" stroke-width="2.5"/>
+            <path d="M 228 504 C 226 530, 226 560, 230 584 L 246 604 C 252 592, 256 560, 260 504 Z" fill="#F1EEEA" stroke="#3A3A3A" stroke-width="2.5"/>
+            <!-- clear below knee: X mark -->
+            <g stroke="#1B7F3B" stroke-width="3" stroke-linecap="round">
+              <line x1="196" y1="540" x2="236" y2="580"/><line x1="236" y1="540" x2="196" y2="580"/>
+            </g>
+            <g font-size="16" fill="#1A1A1A">
+              <text x="290" y="420"><tspan font-weight="700" fill="#922B24">痛點：侷限一帶</tspan><tspan x="290" dy="26" fill="#595959">按得到、彎腰拉扯更明顯</tspan></text>
+              <path d="M 286 416 L 240 428" stroke="#767676" stroke-width="1.6"/>
+              <text x="290" y="560"><tspan font-weight="700" fill="#1B7F3B">膝蓋以下：乾淨</tspan><tspan x="290" dy="26" fill="#595959">不麻、不電、不竄</tspan></text>
+              <path d="M 286 556 L 244 556" stroke="#767676" stroke-width="1.6"/>
+            </g>
+          </g>
+
+          <!-- divider -->
+          <line x1="450" y1="40" x2="450" y2="610" stroke="#E5E5E5" stroke-width="1.5" stroke-dasharray="4 6"/>
+
+          <!-- ══ right: sciatic radiation ══ -->
+          <g>
+            <text x="520" y="42" font-size="18" font-weight="700" fill="#922B24">坐骨神經痛：會竄的麻痛</text>
+            <circle cx="675" cy="106" r="22" fill="#F1EEEA" stroke="#3A3A3A" stroke-width="2.5"/>
+            <circle cx="675" cy="80" r="11" fill="#7A716A" stroke="#3A3A3A" stroke-width="2"/>
+            <path d="M 661 92 C 655 100, 653 112, 655 120 C 663 114, 687 114, 695 120 C 697 112, 695 100, 689 92 Z" fill="#F1EEEA" stroke="#3A3A3A" stroke-width="2"/>
+            <path d="M 626 138 C 616 180, 630 220, 640 246 C 628 258, 622 276, 624 296 L 726 296 C 728 276, 722 258, 710 246 C 720 220, 734 180, 724 138 C 704 126, 646 126, 626 138 Z" fill="#E9E4DE" stroke="#3A3A3A" stroke-width="2.5"/>
+            <!-- low back source -->
+            <path d="M 664 150 l 7 -4 l -1.5 7 l 8 3 l -8 3.5 l 1.5 8 l -7 -4.5 l -3.5 7 l -2.5 -8 l -8 1 l 5 -6 l -6 -5 l 8 -1 l -1 -8 Z" fill="#C73E1D" stroke="#8F2B24" stroke-width="1.5"/>
+            <path d="M 640 296 C 638 326, 644 348, 656 362 L 682 372 L 689 364 L 696 372 L 722 362 C 734 348, 738 326, 736 296 Z" fill="#E4DEDA" stroke="#3A3A3A" stroke-width="2.5"/>
+            <path d="M 654 366 C 650 402, 652 462, 658 500 L 690 500 C 692 462, 690 406, 686 372 Z" fill="#F1EEEA" stroke="#3A3A3A" stroke-width="2.5"/>
+            <path d="M 692 372 C 690 406, 690 462, 692 500 L 724 500 C 728 462, 728 402, 724 366 Z" fill="#F1EEEA" stroke="#3A3A3A" stroke-width="2.5"/>
+            <!-- sciatic path: low back → buttock → back thigh → past knee → calf lateral → foot -->
+            <path d="M 668 158 C 662 190, 660 220, 662 250 C 654 268, 648 284, 648 298 C 646 330, 650 380, 656 430 C 660 460, 664 480, 668 500 C 670 530, 672 560, 676 590 L 686 606"
+                  fill="none" stroke="#C73E1D" stroke-width="7" stroke-linecap="round" stroke-dasharray="14 8" stroke-opacity="0.75"/>
+            <!-- calves + feet -->
+            <path d="M 656 504 C 652 530, 654 560, 660 584 L 676 604 C 680 592, 684 560, 688 504 Z" fill="#F1EEEA" stroke="#3A3A3A" stroke-width="2.5"/>
+            <path d="M 692 504 C 690 530, 690 560, 694 584 L 710 604 C 716 592, 720 560, 724 504 Z" fill="#F1EEEA" stroke="#3A3A3A" stroke-width="2.5"/>
+            <!-- numb foot shading -->
+            <path d="M 660 606 C 672 598, 690 598, 700 604 L 704 622 C 690 628, 668 628, 658 622 Z" fill="#C73E1D" fill-opacity="0.3" stroke="#8F2B24" stroke-width="1.6"/>
+            <g font-size="16" fill="#1A1A1A">
+              <text x="744" y="170"><tspan font-weight="700" fill="#922B24">源頭：腰／臀部</tspan></text>
+              <path d="M 740 166 L 676 152" stroke="#767676" stroke-width="1.6"/>
+              <text x="744" y="420"><tspan font-weight="700" fill="#922B24">一路「竄」下去</tspan><tspan x="744" dy="26" fill="#595959">像電流・像螞蟻爬</tspan></text>
+              <path d="M 740 416 L 664 420" stroke="#767676" stroke-width="1.6"/>
+              <text x="744" y="540"><tspan font-weight="700" fill="#922B24">🚩 警訊：膝蓋以下</tspan><tspan x="744" dy="26" fill="#595959">也痛・麻・腳沒力</tspan></text>
+              <path d="M 740 536 L 690 560" stroke="#767676" stroke-width="1.6"/>
+              <text x="744" y="620"><tspan fill="#595959">腳背麻木是警訊</tspan></text>
+            </g>
+          </g>
+          <text x="450" y="636" font-size="16" fill="#595959" text-anchor="middle">簡單口訣：過膝＋麻＝先就醫；不過膝＋拉扯痛＝照膕旁肌計畫走</text>
+        </svg>
+      </div>
+    </figure>
+    <div class="card micro" data-check="mc1" data-activity="m4-diff">
+      <h4>🧠 分得清楚嗎？</h4>
+      <p class="q-text">痛從臀部出發、竄到小腿外側、小腳趾發麻。這比較像？</p>
+      <div class="opts">
+        <button class="opt" data-fb="❌ 膕旁肌的痛侷限在大腿後側一帶，不會帶著「麻」竄過膝蓋。">膕旁肌拉傷變嚴重</button>
+        <button class="opt" data-ok="true" data-fb="✅ 對——過膝＋麻＝神經路徑的典型表現，先就醫評估，暫停拉筋（神經問題亂拉會更糟）。">神經問題（如坐骨神經）→ 先就醫</button>
+        <button class="opt" data-fb="❌ 「正常過程」不會有麻和過膝的竄痛——這正是紅線要抓的訊號。">恢復期的正常過程</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="screen">
+    <h3>彎腰撿東西：最容易再拉傷的一秒</h3>
+    <p>膝蓋打直直接彎腰——就是當初拉傷的經典姿勢。改成「屈膝下蹲、臀部往後推」，腿後肌不用被拉到最長，一樣撿得到東西。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 4-3｜兩種撿東西的方式：直膝彎腰 vs 屈膝後坐</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="body-svg" role="img" aria-label="側視圖對比兩種撿東西姿勢：左圖直膝彎腰，背拱起、膝蓋打直，膕旁肌被拉到最長，標示危險；右圖屈膝下蹲、臀部往後推、背打直，膕旁肌長度溫和，標示安全">
+        <svg viewBox="0 0 960 430" font-family="inherit">
+          <line x1="70" y1="400" x2="430" y2="400" stroke="#D6D6D6" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="520" y1="400" x2="900" y2="400" stroke="#D6D6D6" stroke-width="2.5" stroke-linecap="round"/>
+          <text x="96" y="40" font-size="18" font-weight="700" fill="#922B24">✗ 直膝彎腰</text>
+          <text x="546" y="40" font-size="18" font-weight="700" fill="#1B7F3B">✓ 屈膝下蹲</text>
+
+          <!-- ══ left: straight-knee forward fold ══ -->
+          <!-- legs (straight) -->
+          <line x1="248" y1="300" x2="240" y2="388" stroke="#333" stroke-width="42" stroke-linecap="round"/>
+          <line x1="248" y1="300" x2="240" y2="388" stroke="#F6F2EC" stroke-width="34" stroke-linecap="round"/>
+          <path d="M 222,386 C 214,390 204,396 202,402 L 228,406 L 254,404 L 254,388 Z" fill="#F6F2EC" stroke="#333" stroke-width="4" stroke-linejoin="round"/>
+          <!-- torso folded forward -->
+          <line x1="250" y1="298" x2="332" y2="198" stroke="#333" stroke-width="54" stroke-linecap="round"/>
+          <line x1="250" y1="298" x2="332" y2="198" stroke="#F6F2EC" stroke-width="46" stroke-linecap="round"/>
+          <!-- tank top on folded torso -->
+          <line x1="256" y1="288" x2="326" y2="206" stroke="#333" stroke-width="46" stroke-linecap="round"/>
+          <line x1="256" y1="288" x2="326" y2="206" stroke="#E9E3DA" stroke-width="39" stroke-linecap="round"/>
+          <!-- head hanging -->
+          <ellipse cx="348" cy="172" rx="20" ry="23" fill="#F6F2EC" stroke="#333" stroke-width="4"/>
+          <path d="M 336,158 C 342,144 360,140 370,152 C 374,162 370,172 362,174 C 352,174 342,168 336,158 Z" fill="#7A716A" stroke="#333" stroke-width="2.5"/>
+          <!-- hanging arm -->
+          <line x1="336" y1="212" x2="366" y2="330" stroke="#333" stroke-width="22" stroke-linecap="round"/>
+          <line x1="336" y1="212" x2="366" y2="330" stroke="#F6F2EC" stroke-width="14" stroke-linecap="round"/>
+          <!-- object -->
+          <circle cx="304" cy="386" r="12" fill="#E4DEDA" stroke="#333" stroke-width="3"/>
+          <!-- stretched hamstring -->
+          <line x1="262" y1="312" x2="252" y2="378" stroke="#B23A32" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+          <!-- annotations -->
+          <g font-size="16" fill="#922B24">
+            <text x="96" y="176"><tspan font-weight="700">膝蓋打直＋背拱起</tspan></text>
+            <path d="M 240 182 L 320 200" stroke="#922B24" stroke-width="1.6"/>
+            <text x="60" y="306"><tspan font-weight="700">膕旁肌被拉到</tspan><tspan x="60" dy="26" font-weight="700">「最長」＝最脆弱</tspan></text>
+            <path d="M 190 312 L 252 330" stroke="#922B24" stroke-width="1.6"/>
+          </g>
+
+          <!-- ══ right: squat / hip hinge ══ -->
+          <!-- shin -->
+          <line x1="612" y1="386" x2="650" y2="330" stroke="#333" stroke-width="36" stroke-linecap="round"/>
+          <line x1="612" y1="386" x2="650" y2="330" stroke="#F6F2EC" stroke-width="28" stroke-linecap="round"/>
+          <!-- thigh -->
+          <line x1="650" y1="330" x2="710" y2="318" stroke="#333" stroke-width="40" stroke-linecap="round"/>
+          <line x1="650" y1="330" x2="710" y2="318" stroke="#F6F2EC" stroke-width="32" stroke-linecap="round"/>
+          <!-- foot -->
+          <path d="M 592,384 C 584,388 574,394 572,400 L 598,404 L 624,402 L 624,386 Z" fill="#F6F2EC" stroke="#333" stroke-width="4" stroke-linejoin="round"/>
+          <!-- torso leaning forward -->
+          <line x1="710" y1="318" x2="676" y2="212" stroke="#333" stroke-width="54" stroke-linecap="round"/>
+          <line x1="710" y1="318" x2="676" y2="212" stroke="#F6F2EC" stroke-width="46" stroke-linecap="round"/>
+          <line x1="706" y1="306" x2="679" y2="222" stroke="#333" stroke-width="46" stroke-linecap="round"/>
+          <line x1="706" y1="306" x2="679" y2="222" stroke="#E9E3DA" stroke-width="39" stroke-linecap="round"/>
+          <!-- head -->
+          <ellipse cx="668" cy="186" rx="20" ry="23" fill="#F6F2EC" stroke="#333" stroke-width="4"/>
+          <path d="M 656,172 C 662,158 680,154 690,166 C 694,176 690,186 682,188 C 672,188 662,182 656,172 Z" fill="#7A716A" stroke="#333" stroke-width="2.5"/>
+          <!-- arms reaching down -->
+          <line x1="680" y1="228" x2="636" y2="322" stroke="#333" stroke-width="22" stroke-linecap="round"/>
+          <line x1="680" y1="228" x2="636" y2="322" stroke="#F6F2EC" stroke-width="14" stroke-linecap="round"/>
+          <line x1="690" y1="236" x2="700" y2="318" stroke="#333" stroke-width="22" stroke-linecap="round"/>
+          <line x1="690" y1="236" x2="700" y2="318" stroke="#F6F2EC" stroke-width="14" stroke-linecap="round"/>
+          <!-- object -->
+          <circle cx="590" cy="386" r="12" fill="#E4DEDA" stroke="#333" stroke-width="3"/>
+          <!-- hamstring at mid length -->
+          <line x1="704" y1="330" x2="654" y2="344" stroke="#B23A32" stroke-width="7" stroke-linecap="round" opacity="0.55"/>
+          <g font-size="16" fill="#1B7F3B">
+            <text x="744" y="180"><tspan font-weight="700">背打直、胸口朝前</tspan></text>
+            <path d="M 740 186 L 690 206" stroke="#1B7F3B" stroke-width="1.6"/>
+            <text x="744" y="242"><tspan font-weight="700">臀部往後坐</tspan><tspan x="744" dy="26">像坐馬桶</tspan></text>
+            <path d="M 740 244 L 712 300" stroke="#1B7F3B" stroke-width="1.6"/>
+            <text x="744" y="318"><tspan font-weight="700">膕旁肌中等長度</tspan><tspan x="744" dy="26">沒有被拉到極限</tspan></text>
+            <path d="M 740 320 L 706 334" stroke="#1B7F3B" stroke-width="1.6"/>
+          </g>
+          <text x="470" y="424" font-size="16" fill="#595959" text-anchor="middle">一時蹲不低沒關係：扶牆或椅子、分兩段撿，都比直膝彎腰安全</text>
+        </svg>
+      </div>
+    </figure>
+    <div class="card micro" data-check="order" data-activity="m4-order" data-answer="屈膝下蹲,背打直臀部後推,扶穩再撿,靠腿站起來">
+      <h4>🧩 排排看：安全撿東西的四步</h4>
+      <div class="order-tiles" data-tiles>
+        <button class="tile" data-tile="背打直臀部後推">背打直臀部後推</button>
+        <button class="tile" data-tile="屈膝下蹲">屈膝下蹲</button>
+        <button class="tile" data-tile="靠腿站起來">靠腿站起來</button>
+        <button class="tile" data-tile="扶穩再撿">扶穩再撿</button>
+      </div>
+      <div class="order-slots" data-slots aria-label="答案區"></div>
+      <p class="micro-done" hidden>🎯 屈膝 → 背直臀後 → 扶穩撿 → 用腿站起。每次都這樣，腿後就安全了。</p>
+    </div>
+  </div>
+
+  <div class="screen">
+    <h3>日常習慣工具箱</h3>
+    <p>恢復不是只有「做運動的十分鐘」——剩下那十幾個小時怎麼過，疤痕都在看。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 4-4｜日常工具箱：六個小習慣</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="mermaid">
+mindmap
+  root(("日常工具箱"))
+    坐
+      每 45 分鐘起身 1 分鐘
+      臀部坐滿・雙腳平放
+      不翹腳
+    動
+      暖了再動・冷的肌肉不伸展
+      早上先熱水澡或踏步
+      分段走・不趕路
+    穿
+      平地好走的鞋
+      避免拖鞋走遠路
+    睡
+      睡飽・修復在睡覺時發生
+      睡前不需要拉筋
+      </div>
+    </figure>
+    <p class="aside">樓梯：好腿先上、痛腿先下（「好上壞下」），扶扶手、一步一階——等第 3 級穩定綠燈再自然走。</p>
+  </div>
+
+  <div class="screen">
+    <h3>兩週後，進步長什麼樣？</h3>
+    <p>用「能做什麼」衡量，不用「還痛不痛」衡量——痛會慢慢變成偶爾的客人，功能才是回家的路。</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 4-5｜進步指標：兩週→六週→三個月</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="mermaid">
+timeline
+    title 恢復里程碑（每人的時間表會前後移動）
+    section 兩週內
+        走得更遠才出現 2–3 分 : 晨僵時間變短
+        毛巾拉筋角度變大 : 坐 1 小時起身比較順
+    section 六週左右
+        動作庫走到第 3 級 : 上樓梯不太猶豫
+        隔天反應越來越平淡
+    section 三個月
+        日常活動不太想它 : 銜接物理治療師的進階計畫
+      </div>
+    </figure>
+    <p>如果兩週<b>完全沒有</b>任何一項進步——不是妳不認真，是該讓專業看看了，這也是紅線之一。</p>
+  </div>
+
+  <div class="screen">
+    <h3>回診時，帶著這三樣去</h3>
+    <p>無論是接下來的物理治療，還是先回去看醫師，這三樣能讓專業更快幫到妳：</p>
+    <figure class="diagram">
+      <div class="diagram-head">
+        <figcaption>圖 4-6｜門診準備清單</figcaption>
+        <button class="btn-enlarge" data-enlarge>放大 🔍</button>
+      </div>
+      <div class="mermaid">
+flowchart LR
+  A["📝 疼痛日誌<br>什麼時候痛・幾分<br>做什麼之後（Lab 1 教的）"] --> C["醫師／治療師<br>快速抓到分級"]
+  B["📋 動作紀錄<br>做到第幾級・次數<br>紅綠燈狀況"] --> C
+  D["❓ 三個問題<br>我算第幾級？能做哪些？<br>什麼情況要馬上回來？"] --> C
+      </div>
+    </figure>
+    <p class="aside">值得直接問的一句話：「這個程度需要照超音波確認分級嗎？」——問了不吃虧，答案由專業判斷。</p>
+  </div>
+
+  <div class="card check-card" data-check="mc" data-activity="m4-check">
+    <h3>✅ 檢查理解</h3>
+    <p class="check-note">不計分、可以重試。</p>
+    <div class="mc-q">
+      <p class="q-text">1. 這週做完分級動作，痛從大腿後面竄到小腿、腳趾發麻。應該？</p>
+      <div class="opts">
+        <button class="opt" data-fb="❌ 過膝＋麻是紅線訊號——先暫停、就醫評估，確定不是神經問題再動。">把毛巾拉筋加倍做，把它拉開</button>
+        <button class="opt" data-fb="❌ 這不是「常見現象」——膕旁肌的痛不會帶麻竄過膝蓋，這條紅線要照走。">正常現象，觀察一個月再說</button>
+        <button class="opt" data-ok="true" data-fb="✅ 對。過膝＋麻＝先就醫。這可能不是膕旁肌的問題，方向對了才不會白練。">暫停計畫，盡快就醫評估</button>
+      </div>
+    </div>
+    <div class="mc-q">
+      <p class="q-text">2. 溫和計畫做了整整兩週，一點進步都沒有。應該？</p>
+      <div class="opts">
+        <button class="opt" data-fb="❌ 兩週零進步是紅線之一——不是加量的問題，是該重新評估的問題。">自動加倍份量沖進度</button>
+        <button class="opt" data-ok="true" data-fb="✅ 對。零進步＝回診重新評估分級，帶著疼痛日誌和動作紀錄去。">回診評估，帶紀錄去</button>
+        <button class="opt" data-fb="❌ 「等」不是辦法——兩週沒進步就是計畫需要專業介入的訊號。">繼續照舊再等兩個月</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card short-card" data-check="short" data-activity="m4-short"
+       data-model="參考答案：紅線有——痛竄過膝蓋到小腿/腳＋麻、完全無法踩地或夜裡痛醒、一週內紅燈兩次以上、溫和計畫兩週零進步、受傷時大片瘀青或摸到凹陷。出現任何一條：暫停計畫、回診，帶疼痛日誌和動作紀錄。日常則記得坐 45 起身 1 分鐘、暖了再動、好上壞下爬樓梯、屈膝下蹲撿東西。"
+       data-selfcheck="我至少說得出三條紅線|我知道「過膝＋麻」特別值得警覺|我知道回診要帶哪三樣">
+    <h3>✍️ 最後一題</h3>
+    <p class="check-note">2–4 句：哪些情況必須先停下來就醫？說得出來，才真的帶得走。</p>
+  </div>
+</section>
+</main>
+
+<footer class="course-footer" id="next">
+  <div class="footer-inner">
+    <h2>🌱 接下來往哪走？</h2>
+    <p>妳已經有了：身體那條肌肉的地圖、疼痛紅綠燈、分級動作庫，和一張屬於妳的兩週計畫。接下來的順序：</p>
+    <ol class="next-steps">
+      <li><b>今天就看第 4 章的紅線清單</b>——知道「什麼情況要先停下來回診」，比任何動作都重要。</li>
+      <li><b>照 Lab 2 的計畫做兩週</b>——每天記得紅綠燈：動作中 ≤3 分繼續、4–5 分減量、6 分以上停。</li>
+      <li><b>排物理治療，帶著紀錄去</b>——把每次「痛幾分、做什麼之後」記下來（Lab 1 教的方法），治療師能更快抓到分級。</li>
+      <li><b>兩週後回來看進步指標</b>——走更遠才痛、早上僵的時間變短，都算進步；進步就升一級，不要跳兩級。</li>
+    </ol>
+    <p class="aside">康復不是「不痛了就好」，是「那條腿重新敢用力」。五十歲的肌肉照樣會長回來——只是它吃<b>規律</b>，不吃猛藥。一天十分鐘，贏過一週一次的英雄式。</p>
+    <div class="footer-actions">
+      <button class="btn btn-ghost" id="resetBtn">重置全部進度</button>
+    </div>
+    <p class="credits">腿後肌康復指南 · 為 50 歲、平時少運動的學習者設計：短小節、真人體圖解、高互動、自動保存、零倒數。<br>課程架構：top-down-course（code-to-lab）。圖表：手繪 SVG 人體圖＋Mermaid（皆本地打包）。內容為一般性衛教參考，不構成醫療建議；施作前請確認第 4 章紅線。</p>
+  </div>
+</footer>
+
+<script src="assets/mermaid.min.js"></script>
+<script src="lab-data.js"></script>
+<script src="section-check.js"></script>
+<script src="lab.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

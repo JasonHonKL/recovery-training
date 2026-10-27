@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>腿後肌康復指南｜大腿後面的那條，慢慢養回來</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="lab.css">
+</head>
+<body>
+<div class="progress-top" aria-hidden="true"><div class="progress-fill" id="progressFill"></div></div>
+
+<header class="hero">
+  <div class="hero-inner">
+    <p class="hero-kicker">腿後肌康復指南 · 居家篇</p>
+    <h1>大腿後面的那條，慢慢養回來</h1>
+    <p class="hero-model">膕旁肌（腿後肌）受傷了一個多月還沒好——這門課用真實的人體圖，帶妳看懂它發生了什麼、學會疼痛紅綠燈，再一步一步照安全的計畫動回來。</p>
+    <ul class="hero-chips" aria-label="課程設計">
+      <li class="chip">⏱ 全程約 45 分鐘</li>
+      <li class="chip">🪑 拆成 4–6 次 8–12 分鐘小坐</li>
+      <li class="chip">🦵 13 張真實人體圖解</li>
+      <li class="chip">👆 每 1–2 屏就有互動</li>
+      <li class="chip">💾 進度自動保存</li>
+      <li class="chip">🚫 沒有倒數計時</li>
+    </ul>
+    <div class="hero-actions">
+      <button class="btn btn-primary" id="resumeBtn" hidden>從這裡繼續 →</button>
+      <button class="btn btn-ghost" id="startBtn">從第 1 章開始 ↓</button>
+    </div>
+    <p class="hero-safety">🩺 這門課是<b>等待專業評估期間的居家安全計畫</b>，不能取代醫師或物理治療師的診斷。第 4 章有「什麼情況要先去看醫生」的完整紅線清單。</p>
+    <p class="hero-progress-label" id="heroProgressLabel" hidden></p>
+  </div>
+</header>
+
+<nav class="rail" id="rail" aria-label="章節導覽">
+  <div class="rail-inner" id="railInner"></div>
+</nav>
+
+<main id="content">
